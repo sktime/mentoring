@@ -1,4 +1,4 @@
-# sktime mentorship programme
+# sktime mentorship program
 
 Find out more at https://www.sktime.org/en/latest/mentoring.html.
 
