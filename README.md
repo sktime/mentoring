@@ -1,4 +1,4 @@
-# sktime mentorship program
+# Welcome to sktime's mentorship program
 
 Find out more at https://www.sktime.org/en/latest/mentoring.html.
 
