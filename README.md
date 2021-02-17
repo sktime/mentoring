@@ -2,7 +2,7 @@
 
 Find out more at https://www.sktime.org/en/latest/mentoring.html.
 
-[`template.md`](https://github.com/sktime/mentorship-programme/blob/master/template.md) provides a template for keeping notes during the mentorship program to be used on HackMD
+[`template.md`](https://github.com/sktime/mentorship-programme/blob/master/template.md) provides a template for keeping notes during the mentorship program on [HackMD](https://hackmd.io).
 
 ## Extra resources
 * [Open Life Science](https://openlifesci.org)
