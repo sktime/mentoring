@@ -1,5 +1,5 @@
 ---
-name: "U+1F392 Mentoring project"
+name: "\U+1F392 Mentoring project"
 about: Describe your mentoring project
 title: "[MENTORING]"
 labels: mentoring
