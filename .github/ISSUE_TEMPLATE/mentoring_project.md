@@ -13,7 +13,7 @@ assignees: ''
 **Mentor:** 
 <!-- please paste the GitHub user name of your mentor -->
 
-**Why did join sktime's mentorship program?**
+**Why did you join sktime's mentorship program?**
 
 **What topic did you work on?** 
 <!-- please add links to issues/PR if applicable -->
