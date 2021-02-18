@@ -1,7 +1,7 @@
 ---
 name: "\U0001F392 Mentoring project"
 about: Describe your mentoring project
-title: "[MENTORING]"
+title: "[MENTEE]"
 labels: mentoring
 assignees: ''
 
