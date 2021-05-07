@@ -6,7 +6,9 @@ Community members and new joiners are invited to apply to the internship and men
 - Theses and student summer projects at contributing universities (see details below)
 - [sktime mentorship scheme](https://www.sktime.org/en/latest/mentoring.html)
 
-Slots are subject to mentor availability and application deadlines 
+Slots are subject to mentor availability and application deadlines.
+
+Past and current mentees are listed [here](https://github.com/sktime/mentoring/issues?q=label%3Amentoring+).
 
 ## Academic mentoring
 sktime is a potential topic for academic projects or theses on the topic of software engineering research or data scientific methodology research. 
