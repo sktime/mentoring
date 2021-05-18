@@ -3,7 +3,7 @@
 Community members and new joiners are invited to apply to the internship and mentorship programs: 
 - [Google Summer of Code 2021](https://github.com/sktime/mentoring/blob/main/internships/gsoc.md) (applications closed)
 - [Outreachy 2021](https://github.com/sktime/mentoring/blob/main/internships/outreachy.md) (applications closed)
-- Theses and student summer projects at contributing universities (see details below)
+- Academic mentoring at contributing universities (see details below)
 - [sktime mentorship scheme](https://www.sktime.org/en/latest/mentoring.html)
 
 Slots are subject to mentor availability and application deadlines.
