@@ -23,6 +23,7 @@ This is a collaborative document to keep track of progress during the mentorship
 - Get started with HackMD using this short guide: https://hackmd.io/@openlifesci/OLS-HackMD-guide
 - Please read our [Code of Conduct](https://github.com/alan-turing-institute/sktime/blob/master/CODE_OF_CONDUCT.rst)
 - Check out sktime's [development roadmap](https://github.com/alan-turing-institute/sktime/issues/228)
+- Make sure you have access to sktime's Discord (the mentoring channel) and Slack server (the #mentees channel).  
 
 **Preferred time and days provided by the mentor and mentee** 
 Please indicate your preferred day/time for your regular call: 
@@ -39,6 +40,7 @@ Please indicate your preferred day/time for your regular call:
     - ... 
 3. State how your mentors can best support you in your contribution to sktime (providing code reviews, share useful resources, explain ML concepts):
     - ...
+4. Open an issue on the [sktime/mentoring](https://github.com/sktime/mentoring/issues) repo. This can be updated during the mentorship program.
 
 ## Week 1
 Referenece issue/PR: [links to issues/PRs on GitHub]
