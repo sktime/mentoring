@@ -1,4 +1,4 @@
-# Welcome to sktime's Google Summer of Code program! 
+# Welcome to sktime's Google Summer of Code program 2021! 
 
 sktime is participating in Google Summer of Code (GSoC) part of INCF (https://www.incf.org/activities/gsoc). Join the sktime team for a summer full of coding, learning and fun. Be part of our diverse community and join our efforts to advance machine learning and time series analysis capabilities!
 
