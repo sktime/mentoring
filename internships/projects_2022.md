@@ -16,11 +16,17 @@ For information on mentoring, summer programmes and application processes, see [
 * https://github.com/alan-turing-institute/sktime/issues/1147
 
 Skills: only the basics
+
 Getting started: https://www.sktime.org/en/stable/developer_guide.html
+
 Expected outcomes: multiple small improvements to sktime documentation, existing mature modules, bugfixes
+
 Stretch goal: move on quickly to a medium or hard difficulty project :-)
+
 Mentors: @fkiraly, @GuzalBulatova, @Lovkush-A , @lmmentel
+
 Difficulty: easy
+
 Length: 175 hours (or less)
 
 ### annotation & segmentation
@@ -30,11 +36,17 @@ Length: 175 hours (or less)
 * implementing base stock of estimators, interfacing popular specialist packages
 
 Skills: design/architecture, methodology (annotation)
+
 Getting started: segmentation wishlist
+
 Expected outcomes: functioning experimental module "annotation" and/or "segmentation"
+
 Stretch goal: "own" one of the modules!
+
 Mentors: @lmmentel, @Lovkush-A
+
 Difficulty: hard
+
 Length: 350 hours
 
 ### probabilistic & hierarchical/global forecasting
