@@ -56,11 +56,17 @@ Length: 350 hours
 * tuning, pipelines, ensembling
 
 Skills: methodology (forecasting), "rolling your own estimator", sklearn internals
+
 Getting started: reconciliation or augmentation
+
 Expected outcomes: implemented 3-5 interesting estimators in the area
+
 Stretch goal: probabilistic supervised learning package
+
 Mentors: @fkiraly, @GuzalBulatova; support: @danbartl, @ltsaprounis
+
 Difficulty: medium
+
 Length: 175 or 350 hours
 
 ### stream forecasting interfaces
@@ -70,11 +76,17 @@ Length: 175 or 350 hours
 * implement stream compositors, e.g., "re-fit every X periods" or "re-fit on condition"
 
 Skills: design/architecture, methodology (stream/on-line)
+
 Getting started: refactor `update` and `update_predict`
+
 Expected outcomes: upgraded stream interface for all modules
+
 Stretch goal: benchmarking study, or "cross-module" stream functionality
+
 Mentors: @lmmentel, @fkiraly, @GuzalBulatova
+
 Difficulty: medium
+
 Length: 175 or 350 hours
 
 ### flexible pipelines and composition
@@ -84,11 +96,17 @@ Length: 175 or 350 hours
 * ensuring performance: caching, vectorization
 
 Skills: design/architecture, sklearn internals
+
 Getting started: forecasting pipelines
+
 Expected outcomes: advanced pipeline module, cross-package
+
 Stretch goal: pipeline specification language
+
 Mentors: @fkiraly, @GuzalBulatova; support: @aiwalter
+
 Difficulty: hard
+
 Length: 175 or 350 hours
 
 ### benchmarking framework
@@ -98,11 +116,17 @@ Length: 175 or 350 hours
 * conduct benchmarking studies in cutting edge areas, e.g., forecasting
 
 Skills: methodology (evaluation), design/architecture
+
 Getting started: forecasting benchmarks
+
 Expected outcomes: professional benchmarking framework module
+
 Stretch goal: run or replicate a major benchmarking study, publish paper
+
 Mentors: @fkiraly, @Lovkush-A
+
 Difficulty: medium
+
 Length: 175 or 350 hours
 
 ### deep learning for time series
@@ -112,9 +136,15 @@ Length: 175 or 350 hours
 * create interface and flexible back-end layers
 
 Skills: neural network packages (tensorflow, pytorch), methodology (deep learning)
+
 Getting started: port sktime-dl to sktime
+
 Expected outcomes: sktime deep learning functionality up-to-date with current main package
+
 Stretch goal: "own" deep learning module, or benchmarking study
+
 Mentors: @lmmentel, @fkiraly; support: @tonybagnall, @chrisholder
+
 Difficulty: hard
+
 Length: 350 hours
