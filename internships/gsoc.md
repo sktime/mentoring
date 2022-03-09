@@ -1,0 +1,81 @@
+# WARNING - THIS IS WORK IN PROGRESS AND NOT THE FINAL APPLICATION GUIDE FOR GSoC 2022
+
+# Welcome to sktime's Google Summer of Code program 2022! 
+
+sktime is participating in Google Summer of Code (GSoC) 2022. Join the sktime team for a summer full of coding, learning and fun. Be part of our diverse community and join our efforts to advance machine learning and time series analysis capabilities!
+
+We explicitly would like to encourage applications by groups underrepresented in the tech sector.
+
+If you have questions, please feel free to reach out to us on Slack (https://join.slack.com/t/sktime-group/shared_invite/zt-62i7aejn-vXc3nOWF26S_P3VXFPWisQ) or GitHub (https://github.com/alan-turing-institute/sktime/discussions). 
+
+## Why sktime?
+Time series data is ubiquitous in many applications. Examples include sensor readings from industrial processes, spectroscopy wave length data from chemical samples, or bed-side monitor medical data from patients. Developing advanced time series analysis capabilities for researchers and practitioners is one of the major challenges of contemporary machine learning. 
+
+sktime is a new Python toolbox for machine learning with time series and, to the best of our knowledge, the first unified toolbox for time series. Our ambition is to provide for time series what scikit-learn provides for tabular data. This involves extending scikit-learn to the different time series learning tasks, such as time series classification, clustering, forecasting and anomaly detection. To find out more, check out our [paper](http://learningsys.org/neurips19/assets/papers/sktime_ml_systems_neurips2019.pdf) published at the [Workshop on Systems for ML at NeurIPS 2019](http://learningsys.org/neurips19/). 
+
+## How to apply?
+1. Solve an entrance task by making a pull request (PR) to sktime. Find out more about how to contribute in our guide (https://www.sktime.org/en/latest/contributing.html).
+This means opening a sensible PR, but your PR does not need to be merged yet. 
+Alternatively, if you are already experienced in using git and GitHub in a collaborative environment, you can skip this step. In this case, please provide a link to publicly visible evidence for your experience in the application form in step 2 below.
+2. Fill in and submit the application form at: TBD. You should have completed your entrance task (point 1 above) before submitting the form, since you need to provide a link to it in the form.
+3. Submit a proposal on the GSoC platform (https://summerofcode.withgoogle.com). You can base this on the list of proposed projects (see below), your entrance task, or your own independent idea - whichever you choose, we aim to evaluate fairly and primarily on quality. If you submit a draft proposal, we are happy to provide feedback before the final submission. For general advice on how to write the proposal, have a look at the official guide: https://google.github.io/gsocguides/student/writing-a-proposal.
+
+The application deadline for completing all three steps above is TBD, 19:00 (WEST). 
+
+If you get stuck or have questions, please feel free to reach out to us on Gitter (https://gitter.im/sktime/community) or GitHub (https://github.com/alan-turing-institute/sktime/discussions). 
+
+## What we expect
+GSoC is a marathon, not a sprint, and we expect good performance over the whole project. This means that you are in daily contact with your mentors and wider community and that you work full time on the project. 
+
+In addition to the individual project work, all students will be required (and have the opportunity) to:
+
+ * peer-review a fellow student's work in the middle and at the end of GSoC,
+ * write weekly blog posts about your contribution and a final summary post at the end of the project,
+ * have a good time web-socializing with the other students.
+
+## What you can expect to get out of your participation
+
+The stipend will allow you to aquire cutting edge skills and participate in intensive mentoring sessions, in highly sought-after areas of data science (time series, toolboxes, healthcare & industry applications). 
+
+Ultimately, one of our key goals is to onboard new *long-term* developers who are willing to step up and become next generation leaders in open source toolbox development.
+
+## Candidate selection process
+A pre-selection will be carried out for applications submitted by TBD based on the submitted application form and linked material. You will receive notification of the pre-selection outcome no later than TBD.
+
+The outcome of the pre-selection can be either progression to the next stage, or a rejection. In the latter case, we would still very much welcome collaboration and contribution outside GSoC. For example, you may be eligible for (unpaid) mentoring.
+
+If successful in the pre-selection, we will invite you to a structured interview (ca. 60 minutes length) with core community members of sktime, in the weeks of TBD.
+Preferred dates are TBD. Please keep these dates free if possible.
+
+During the interview, you will be expected to give a 10-minute presentation on a piece of Python code that you wrote. The interview will also focus on your motivation to join sktime, prior work experience, suitability for the specified project, and general technical background in data science and Python software development. 
+
+The interview can have the following three outcomes:
+* Conditional fast-track acceptance to the sktime GSoC 2022. This means you are put on-track by the sktime project, and in a project dedicated slot for the GSoC program. This means highly likely - but not guaranteed - acceptance to the GSoC program, but can still result in a rejection (see below)
+* Conditional acceptance to the sktime GSoC 2022. This means you are put on-track by the sktime project. This means possible - but not guaranteed - acceptance to the GSoC program, but can still result in a rejection (see below).
+* A rejection for GSoC 2022. This means you are not put forward to any of the GSoC 2022 slots by the sktime team - but we would still very much welcome collaboration and contribution, outside of GSoC 2022, if you are interested.
+
+The interview outcome will be communicated to you no later than one week after the interview itself. You will receive full confirmation of acceptance or rejection (from sktime and GSoC) on TBD.
+
+## What we are looking for
+We're actively looking for contributors and your help is extremely welcome. Therefore, if
+ * you are interested in time series, machine learning (ML), statistics, API design and software architecture,
+ * you like coding in Python,
+ * you are familiar with the basic data science ecosystem in Python, including numpy, pandas and scikit-learn, 
+ * you enjoy working with a vibrant team of experienced ML scientists and software engineers,
+ * you always wanted to join an open-source community,
+
+then GSoC with sktime is for you! You'll spend the summer working with our enthusiastic and open-minded team of developers who are creating one of the first comprehensive time series ML toolboxes out there.
+
+## Projects
+For potential projects, see our [list of suggested projects](https://github.com/sktime/mentoring/blob/main/internships/projects_2022.md) and [good first issues](https://github.com/alan-turing-institute/sktime/labels/good%20first%20issue).
+We also appreciate applications with your own ideas!
+
+## Mentors
+
+| Name  | GitHub | Website |
+|---|---|---|
+| Franz Király | [@fkiraly](https://github.com/fkiraly) | [website](https://uk.linkedin.com/in/franz-kir%C3%A1ly-10a1391ba) |
+| Guzal Bulatova | [@guzalbulatova](https://github.com/guzalbulatova) | [website](https://www.linkedin.com/in/guzal-bulatova/) | 
+| Lovkush Agarwal | [@lovkush-a](https://github.com/lovkush-a) | | 
+| Lukasz Mentel | [@lmmentel](https://github.com/lmmentel) | [website](https://no.linkedin.com/in/lukasz-mentel) | 
+
