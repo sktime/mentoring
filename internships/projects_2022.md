@@ -51,7 +51,7 @@ Length: 350 hours
 
 ### probabilistic & hierarchical/global forecasting
 
-* help implement estimators and compositors from the wishlist
+* help implement estimators and compositors from the wishlists: [proba forecasting list](https://github.com/alan-turing-institute/sktime/issues/1742), [proba for compositors list](https://github.com/alan-turing-institute/sktime/issues/2088), [hierarchical reconciliation](https://github.com/alan-turing-institute/sktime/issues/2157)
 * examples: reconciliation (matrix based e.g. min trace and other methods), bootstrap prediction intervals, time series augmentation
 * tuning, pipelines, ensembling
 
