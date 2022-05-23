@@ -1,4 +1,4 @@
-Mentorship Programme: <Mentee> + <Mentor> Notes
+Mentorship Programme Notes: Template firstname lastname
 ===
 
 ###### tags: `mentorship`
@@ -6,12 +6,17 @@ Mentorship Programme: <Mentee> + <Mentor> Notes
 This is a collaborative document to keep track of progress during the mentorship programme.
 
 :::info
-- **Call time**: [INSERT CALL TIME FOR REGULAR CALLS]
+- **Call time**: 30min time slot, day of week
 - **Project name**: 	
-- **Mentees**: 
-- **Mentor(s)**: 
-- **Call joining link**: https://discord.gg/gqSab2K (feel free to use the voice channels on our discord server or any other platform)
+- **Mentees**: firstname lastname
+- **Mentor(s)**: firstname lastname
+- **Call joining link**: specify
 :::
+
+
+## References
+The sktime mentorship programme is inspired by the [The Turing Way](https://the-turing-way.netlify.app/welcome) project and [Open Life Science](https://openlifesci.org) programme under a CC BY 4.0, Open Life Science (OLS-2), 2020 license.
+
 
 **Contents**
 
@@ -23,40 +28,61 @@ This is a collaborative document to keep track of progress during the mentorship
 - Get started with HackMD using this short guide: https://hackmd.io/@openlifesci/OLS-HackMD-guide
 - Please read our [Code of Conduct](https://github.com/alan-turing-institute/sktime/blob/master/CODE_OF_CONDUCT.rst)
 - Check out sktime's [development roadmap](https://github.com/alan-turing-institute/sktime/issues/228)
-- Make sure you have access to sktime's Discord (the mentoring channel) and Slack server (the #mentees channel).  
 
 **Preferred time and days provided by the mentor and mentee** 
 Please indicate your preferred day/time for your regular call: 
 
-* ...
+* tbd
 
-### Homework before meeting your mentor
+### Prep work for week 1
 
 **Mentees will:**
 
 1. Read https://ideas.ted.com/are-you-mentorable/
-2. Set 1-2 personal goals for yourself in terms of programming and ML concepts:
-    - ...
-    - ... 
-3. State how your mentors can best support you in your contribution to sktime (providing code reviews, share useful resources, explain ML concepts):
-    - ...
+2. Set 1-2 personal development goals for yourself:
+...
+4. State how your mentors can best support you in your contribution to sktime (e.g., providing code reviews, share useful resources, explain ML concepts):
+...
 4. Open an issue on the [sktime/mentoring](https://github.com/sktime/mentoring/issues) repo. This can be updated during the mentorship program.
 
-## Week 1
-Referenece issue/PR: [links to issues/PRs on GitHub]
+
+
+## Week 1 - MMM DD
 
 ### Agenda
-* Agree on project to work on
-* ...
+* discussing aim of mentoring
+* how sktime mentoring programme works
+* discussing project to work on & next steps
+* developer set-up
 
 ### Notes
-* ...
-* ...
 
-### Next steps
-* ...
-* ...
+### development goals
+
+### project goals
 
 
-## References
-The sktime mentorship programme is inspired by the [The Turing Way](https://the-turing-way.netlify.app/welcome) project and [Open Life Science](https://openlifesci.org) programme under a CC BY 4.0, Open Life Science (OLS-2), 2020 license.
+## Week 2 - MMM DD
+
+### work done
+
+### Agenda
+
+### Questions
+
+### Notes
+
+### Actions, short-term goals
+
+
+## Week 3 - MMM DD
+
+### work done
+
+### Agenda
+
+### Questions
+
+### Notes
+
+### Actions, short-term goals
