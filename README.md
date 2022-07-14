@@ -18,7 +18,7 @@ Specific mentoring for these situations is available.
 Useful information for prospective students and supervisors:
 - sktime is a collaborative project. Contributions will be reviewed and commented upon by peer reviewers. Most universities allow collaborative theses as long as the nature of collaboration and the individual contribution is clearly stated in a preamble. Example statement: “Part of the research was conducted in collaboration with the sktime open source community. This included [code reviews, mentoring, joint research discussions – select as appropriate] in the context of [describe]”.
 - Thesis and project students may engage in the sktime mentorship program – if the mentor is not identical with the formal university supervisor they may have to be registered as an external co-supervisor, depending on university regulations.
-- A contribution to sktime means publication under a permissive open source license (MIT). This is usually compatible with requirements on academic theses and student projects, but this may vary by university regulations.
+- A contribution to sktime means publication under a permissive open source license (BSD-3-Clause). This is usually compatible with requirements on academic theses and student projects, but this may vary by university regulations.
 
 ## Resources
 * [`template.md`](https://github.com/sktime/mentorship-programme/blob/master/template.md) provides a template for keeping notes during the mentorship program on [HackMD](https://hackmd.io).
