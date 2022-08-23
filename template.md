@@ -25,9 +25,9 @@ The sktime mentorship programme is inspired by the [The Turing Way](https://the-
 ## Week 0
 
 - For reference: sktime's [mentorship programme call for applications](https://github.com/alan-turing-institute/sktime/wiki/Mentorship-programme)
-- Get started with HackMD using this short guide: https://hackmd.io/@openlifesci/OLS-HackMD-guide
+- Get started with HackMD using this short guide: https://hackmd.io/features?both
 - Please read our [Code of Conduct](https://github.com/alan-turing-institute/sktime/blob/master/CODE_OF_CONDUCT.rst)
-- Check out sktime's [development roadmap](https://github.com/alan-turing-institute/sktime/issues/228)
+- Check out sktime's [development roadmap](https://github.com/sktime/community-org/blob/main/meetups/previous_meetings/20211203-roadmap-planning.md)
 
 **Preferred time and days provided by the mentor and mentee** 
 Please indicate your preferred day/time for your regular call: 
