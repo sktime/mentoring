@@ -27,8 +27,8 @@ The sktime mentorship programme is inspired by the [The Turing Way](https://the-
 - For reference: sktime's [mentorship programme call for applications](https://www.sktime.org/en/latest/get_involved/mentoring.html)
 - Get started with HackMD using this short guide: https://hackmd.io/@openlifesci/OLS-HackMD-guide
 - Please read our [Code of Conduct](https://www.sktime.org/en/latest/get_involved/code_of_conduct.html)
-* [guide for getting started as an sktime contributor](https://www.sktime.org/en/latest/get_involved/contributing.html#contributing)
-* [current list of project ideas](
+- [guide for getting started as an sktime contributor](https://www.sktime.org/en/latest/get_involved/contributing.html#contributing)
+- [current list of project ideas](
 https://github.com/sktime/mentoring/blob/main/internships/projects_2022.md)
 - Check out sktime's [development roadmap](https://github.com/sktime/sktime/issues/228)
 
@@ -44,7 +44,7 @@ Please indicate your preferred day/time for your regular call:
 1. Read https://ideas.ted.com/are-you-mentorable/
 2. Set 1-2 personal development goals for yourself:
 ...
-4. State how your mentors can best support you in your contribution to sktime (e.g., providing code reviews, share useful resources, explain ML concepts):
+3. State how your mentors can best support you in your contribution to sktime (e.g., providing code reviews, share useful resources, explain ML concepts):
 ...
 4. Open an issue on the [sktime/mentoring](https://github.com/sktime/mentoring/issues) repo. This can be updated during the mentorship program.
 
