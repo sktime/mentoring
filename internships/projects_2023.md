@@ -89,7 +89,7 @@ Difficulty: medium
 
 Length: 175 or 350 hours
 
-### graphical pipelines, integration with pywatts
+### graphical pipelines, integration with `pywatts`
 
 * help design an build flexible building blocks for pipeline/composition
 * graphical pipelines, [integration with pywatts package](https://github.com/sktime/sktime/issues/2653)
@@ -110,9 +110,9 @@ Difficulty: hard
 
 Length: 175 or 350 hours
 
-### benchmarking framework
+### benchmarking framework, integration with `kotsu`
 
-* create and refactor `sktime` benchmarking framework
+* create and refactor `sktime` benchmarking framework using `kotsu`
 * statistical evaluation, visualization, and reporting functionality
 * conduct benchmarking studies in cutting edge areas, e.g., forecasting
 
