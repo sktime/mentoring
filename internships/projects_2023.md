@@ -23,7 +23,7 @@ Expected outcomes: multiple small improvements to sktime documentation, existing
 
 Stretch goal: move on quickly to a medium or hard difficulty project :-)
 
-Mentors:
+Mentors: any
 
 Difficulty: easy
 
@@ -43,7 +43,7 @@ Expected outcomes: functioning experimental module "annotation" and/or "segmenta
 
 Stretch goal: "own" one of the modules!
 
-Mentors: 
+Mentors: fkiraly, achieveordie
 
 Difficulty: hard
 
@@ -63,7 +63,7 @@ Expected outcomes: implemented 3-5 interesting estimators in the area
 
 Stretch goal: probabilistic supervised learning package
 
-Mentors:
+Mentors: fkiraly, tbd
 
 Difficulty: medium
 
@@ -83,7 +83,7 @@ Expected outcomes: `skbase` feature, e.g., pipelines building blocks or meta-est
 
 Stretch goal: new package in `sktime` ecosystem
 
-Mentors:
+Mentors: fkiraly, rnkuhns (skbase)
 
 Difficulty: medium
 
@@ -104,7 +104,7 @@ Expected outcomes: advanced pipeline module, cross-package
 
 Stretch goal: pipeline specification language
 
-Mentors:
+Mentors: fkiraly, benheid (pywatts)
 
 Difficulty: hard
 
@@ -124,7 +124,7 @@ Expected outcomes: professional benchmarking framework module
 
 Stretch goal: run or replicate a major benchmarking study, publish paper
 
-Mentors:
+Mentors: fkiraly, dbcerigo, alex-hh
 
 Difficulty: medium
 
@@ -144,7 +144,7 @@ Expected outcomes: a few deep learning forecasters integrated
 
 Stretch goal: "own" deep learning module, or benchmarking study
 
-Mentors:
+Mentors: achieveordie, fkiraly
 
 Difficulty: hard
 
