@@ -34,9 +34,8 @@ The `sktime` internship is a paid internship programme, through June-August 2023
 * full time dedication to the internship project is expected throughout the internship period (June 5 - Sep 1), excluding 5 working days of pause
 * upon request, we can accommodate for flexible time arrangements, moving start and end within reason, or a shorter internship period.
 * the internship consists of collaborating with `sktime` developers, as well as other interns and mentees, on `sktime` and an approved project (applicants can propose projects)
-* the internship is accompanied by a reimbursement of living costs and project expenses at a flat weekly pro-rata of 420 EUR, to be reimbursed monthly, by our fiscal host, the non-profit Open Collective Europe.
-* the internship does not constitute formal employment, nor is it accompanied by a formal or implied contract with
-  natural or legal persons. It is a strictly time limited collaboration arrangement with cost reimbursement, at the discretion of the sktime project as hosted by Open Collective Europe.
+* the internship is accompanied by a flat weekly pro-rata of 420 EUR, to be reimbursed monthly, by our fiscal host, the non-profit Open Collective Europe (OCE). This is via invoicing every 4 weeks, see OCE's [guidelines on invoicing](https://docs.opencollective.com/oceurope/how-it-works/expenses).
+* the internship does not constitute formal employment, terms and conditions of OCE apply. Reimbursement at the discretion of the sktime project as hosted by OCE.
 
 ## The application process
 
