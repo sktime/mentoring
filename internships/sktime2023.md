@@ -53,7 +53,7 @@ If you get stuck or have questions, please feel free to reach out to us on [Disc
 
 ### Entrace task, application form
 
-The deadline to complete all of these is April 19, 18:00 (UTC). If you want feedback on a proposal, then you must complete these steps one week earlier and select the option in the sktime application form. See next subsection for details.
+The deadline to complete all of these is April 19, 18:00 (UTC). If you want feedback on a proposal, then you must complete these steps one week earlier and select the option in the sktime application form.
 
 1. Entrance task. Make a pull request (PR) to sktime to show you are able to contribute meaningfully.
     - Your PR does not need to be merged at the time of application.
