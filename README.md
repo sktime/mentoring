@@ -1,12 +1,14 @@
 # Welcome to sktime's mentoring program
 
 Community members and new joiners are invited to apply to the internship and mentorship programs: 
-- [sktime mentoring scheme](https://www.sktime.org/en/latest/get_involved/mentoring.html) - applications on rolling basis
+- [sktime mentoring scheme](https://www.sktime.net/en/latest/get_involved/mentoring.html) - applications on rolling basis
 - [Google Summer of Code 2022](https://github.com/sktime/mentoring/blob/main/internships/gsoc2022.md) (applications closed)
 - [Outreachy 2021](https://github.com/sktime/mentoring/blob/main/internships/outreachy.md) (applications closed)
 - Academic mentoring at contributing universities (see details below)
 
 Slots are subject to mentor availability and application deadlines.
+
+Project ideas for 2023 are listed [here](https://github.com/sktime/mentoring/blob/main/internships/projects_2023.md).
 
 Past and current mentees are listed [here](https://github.com/sktime/mentoring/issues?q=label%3Amentoring+).
 
