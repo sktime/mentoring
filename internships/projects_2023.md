@@ -17,7 +17,7 @@ For information on mentoring, summer programmes and application processes, see [
 
 Skills: only the basics
 
-Getting started: https://www.sktime.org/en/stable/developer_guide.html
+Getting started: https://www.sktime.net/en/stable/developer_guide.html
 
 Expected outcomes: multiple small improvements to sktime documentation, existing mature modules, bugfixes
 
