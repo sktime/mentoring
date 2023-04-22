@@ -15,7 +15,7 @@ sktime is a new Python toolbox for machine learning with time series and, to the
 1. Submit an initial application to Outreachy by Feb 22, according to the Outreachy application process (https://www.outreachy.org/apply/). In case of success, this will allow you to apply for specific projects like sktime.
 2. Choose sktime as one of your target projects, and solve an entrance task by making a pull request (PR) to sktime. 
 This means opening a sensible PR, but your PR does not need to be merged yet. 
-Find out more about how to contribute in our guide (https://www.sktime.org/en/latest/contributing.html). You will also need to record your contributions(s) via the Outreachy projects page (https://www.outreachy.org/apply/project-selection/).
+Find out more about how to contribute in our guide (https://www.sktime.net/en/latest/contributing.html). You will also need to record your contributions(s) via the Outreachy projects page (https://www.outreachy.org/apply/project-selection/).
 
 The application deadline for completing all steps above is April 30, 4pm UTC. 
 
@@ -39,7 +39,7 @@ Ultimately, one of our key goals is to onboard new *long-term* developers who ar
 ## Candidate selection process
 A pre-selection will be carried out for applications submitted by May 1 based on the submitted application and linked material. You will receive notification of the pre-selection outcome no later than May 2.
 
-The outcome of the pre-selection can be either progression to the next stage or a rejection. In the latter case, we would still very much welcome collaboration and contribution outside Outreachy. For example, you may be eligible for (unpaid) mentoring as part of sktime's own mentorship programme (https://www.sktime.org/en/latest/mentoring.html).
+The outcome of the pre-selection can be either progression to the next stage or a rejection. In the latter case, we would still very much welcome collaboration and contribution outside Outreachy. For example, you may be eligible for (unpaid) mentoring as part of sktime's own mentorship programme (https://www.sktime.net/en/latest/mentoring.html).
 
 If successful in the pre-selection, we will invite you to a structured interview (ca. 60 minutes length) with core community members of sktime, in the weeks of May 3.
 Preferred dates are May 6 and 7. Please keep these dates free if possible.
