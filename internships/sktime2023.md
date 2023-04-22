@@ -72,7 +72,7 @@ After the deadline on May 19 has passed, we will process the information provide
 ### Interview
 
 If successful in the above steps, we will invite you to a structured interview (ca. 30 to 60 minutes length; to be finalised) with a panel made up of core community members of `sktime`.
-The interview will happen in the two days of May 23, 30. Please keep these dates free if possible.
+The interview will happen in the two days of May 29, 30. Please keep these dates free if possible.
 
 During the interview:
 - we will ask you to give a short (5 to 10 minutes; to be finalised) presentation on a piece of Python code that you wrote. Please be ready to screen share your code or to send a link to the repo containing your code.
