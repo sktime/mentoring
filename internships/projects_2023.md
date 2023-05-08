@@ -63,7 +63,7 @@ Expected outcomes: implemented 3-5 interesting estimators in the area
 
 Stretch goal: probabilistic supervised learning package
 
-Mentors: fkiraly, tbd
+Mentors: fkiraly, frthjf
 
 Difficulty: medium
 
@@ -83,7 +83,7 @@ Expected outcomes: `skbase` feature, e.g., pipelines building blocks or meta-est
 
 Stretch goal: new package in `sktime` ecosystem
 
-Mentors: fkiraly, rnkuhns (skbase)
+Mentors: fkiraly, tbd
 
 Difficulty: medium
 
@@ -124,7 +124,7 @@ Expected outcomes: professional benchmarking framework module
 
 Stretch goal: run or replicate a major benchmarking study, publish paper
 
-Mentors: fkiraly, dbcerigo, alex-hh
+Mentors: fkiraly, dbcerigo, alex-hh, tcuongd
 
 Difficulty: medium
 
