@@ -31,7 +31,8 @@ The sktime mentorship programme is inspired by the [The Turing Way](https://the-
 - [current list of project ideas](https://github.com/sktime/mentoring/blob/main/internships/projects_2023.md)
 - Check out sktime's [development roadmap](https://github.com/sktime/sktime/issues/228)
 
-**Preferred time and days provided by the mentor and mentee** 
+**Preferred time and days provided by the mentor and mentee**
+
 Please indicate your preferred day/time for your regular call: 
 
 * tbd
