@@ -45,7 +45,7 @@ Getting started: implement a new global forecaster based on `sklearn` ML methods
 
 Expected outcomes: global forecasting API, extended selection of global forecasters
 
-Stretch goal: benchmarking study of global forecasters
+Stretch goal: benchmarking study of global forecasters, or building deep learning model
 
 Mentors: benheid, fkiraly
 
@@ -111,7 +111,7 @@ Expected outcomes: `skbase` feature, e.g., pipelines building blocks or meta-est
 
 Stretch goal: new package in `sktime` ecosystem
 
-Mentors:
+Mentors: fkiraly
 
 Difficulty: medium
 
@@ -152,7 +152,7 @@ Expected outcomes: professional benchmarking framework module
 
 Stretch goal: run or replicate a major benchmarking study, publish paper
 
-Mentors: 
+Mentors: tbd
 
 Difficulty: medium
 
@@ -166,13 +166,13 @@ Length: 175 or 350 hours
   design forecasting sub-base class for deep learning back-ends
 * create interface and flexible back-end layers
 
-Skills: DL/LLM (pytorch, huggingface), methodology (deep learning), familiarity with distribute/parallel back-ends
+Skills: DL/LLM (pytorch, huggingface), methodology (deep learning), familiarity with distributed/parallel back-ends
 
 Getting started: interface pytorch-forecast or darts
 
 Expected outcomes: a few deep learning forecasters integrated
 
-Stretch goal: "own" deep learning module, or benchmarking study
+Stretch goal: public foundation model for forecasting, "own" deep learning module, or benchmarking study
 
 Mentors: benheid, fkiraly
 
