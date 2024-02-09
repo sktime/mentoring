@@ -77,6 +77,28 @@ Difficulty: medium
 
 Length: 175 or 350 hours
 
+
+### bootstrapping, simulation & ensemble models
+
+* develop modules for boostrapping, simulation and probability objects, eg distributions over time series
+* work towards integration with `tsbootstrap` package
+* implement ensemble and tuning models based on bootstrap/simulation strategies
+
+Skills: methodology (probability)
+
+Getting started: implement a splitter
+
+Expected outcomes: 
+
+Stretch goal:
+
+Mentors: astrogilda, fkiraly, benheid
+
+Difficulty: Medium
+
+Length: 350 hours
+
+
 ### annotation & segmentation
 
 * work with sktime core developers to design and create new module(s) for time series annotation
@@ -97,25 +119,6 @@ Difficulty: hard
 
 Length: 350 hours
 
-### develop skbase - base class package
-
-* help integrate `skbase` with `sktime`
-* build advanced base class functionality - pipelines, meta-estimators
-* co-develop new sub-module of `sktime`: e.g., specialized forecasting tasks
-
-Skills: design/architecture, sklearn development
-
-Getting started: write a new `sktime` module using `skbase`
-
-Expected outcomes: `skbase` feature, e.g., pipelines building blocks or meta-estimators
-
-Stretch goal: new package in `sktime` ecosystem
-
-Mentors: fkiraly
-
-Difficulty: medium
-
-Length: 175 or 350 hours
 
 ### graphical pipelines
 
@@ -138,6 +141,7 @@ Difficulty: hard
 
 Length: 175 or 350 hours
 
+
 ### benchmarking framework
 
 * create and refactor `sktime` benchmarking framework
@@ -157,6 +161,7 @@ Mentors: tbd
 Difficulty: medium
 
 Length: 175 or 350 hours
+
 
 ### scaling, backends, foundation models - `polars`, `pytorch`, `huggingface`
 
