@@ -63,13 +63,13 @@ Length: 350 hours
 * examples: model-based prediction intervals, probabilistic ensembles
 * tuning, pipelines, composition
 
-Skills: methodology (forecasting), "rolling your own estimator", sklearn internals
+Skills: methodology (forecasting), probability, "rolling your own estimator", sklearn internals
 
 Getting started: adding `predict_interval` and `predict_proba` for estimators
 
 Expected outcomes: implemented 3-5 interesting estimators in the area
 
-Stretch goal: probabilistic supervised learning package
+Stretch goal: stream or point process modelling functionality
 
 Mentors: fkiraly, frthjf
 
