@@ -29,7 +29,32 @@ Difficulty: easy
 
 Length: 175 hours (or less)
 
-### time-to-event modellig, probabilistic forecasting, probabilistic supervised learning
+
+### global forecasting and reduction forecasting
+
+* addition of global forecasting capability (with `fit` specific instances) to base class
+    * https://github.com/sktime/sktime/issues/4651
+* rework and extensions to direct, recursive forecasting
+    * flexible model specification interface for exogenous variables and features
+    * meta-strategies for global forecasting with `fit` specific instances
+* integration of third party algorithms with global forecasting capability, e.g., `pytorch-forecast`
+
+Skills: statistical and ML approaches to forecasting, 
+
+Getting started: implement a new global forecaster based on `sklearn` ML methods
+
+Expected outcomes: global forecasting API, extended selection of global forecasters
+
+Stretch goal: benchmarking study of global forecasters
+
+Mentors: benheid, fkiraly
+
+Difficulty: medium
+
+Length: 350 hours
+
+
+### time-to-event modelling, probabilistic forecasting, probabilistic supervised learning
 
 * help developing the [`skpro`](https://github.com/sktime/skpro/issues) package - distributions, time-to-event models, reductions
 * help implement estimators and compositors from the wishlists:
@@ -136,7 +161,7 @@ Length: 175 or 350 hours
 ### scaling, backends, foundation models - `polars`, `pytorch`, `huggingface`
 
 * integration with distributed and parallel backends - `polars`, `ray`, etc
-* integration with deep learning backends - `pytorch`, `pytorch-foecast`
+* integration with deep learning backends - `pytorch`, `pytorch-forecast`
 * integration with huggingface
   design forecasting sub-base class for deep learning back-ends
 * create interface and flexible back-end layers
