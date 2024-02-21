@@ -25,7 +25,7 @@ The sktime mentorship programme is inspired by the [The Turing Way](https://the-
 ## Week 0
 
 - For reference: sktime's [mentorship programme call for applications](https://www.sktime.net/en/latest/get_involved/mentoring.html)
-- Get started with HackMD using this short guide: https://hackmd.io/@openlifesci/OLS-HackMD-guide
+- Get started with HackMD using this short guide: https://hackmd.io/@openlifescience/OLS-HackMD-guide
 - Please read our [Code of Conduct](https://www.sktime.net/en/latest/get_involved/code_of_conduct.html)
 - [guide for getting started as an sktime contributor](https://www.sktime.net/en/latest/get_involved/contributing.html#contributing)
 - [current list of project ideas](https://github.com/sktime/mentoring/blob/main/internships/projects_2023.md)
