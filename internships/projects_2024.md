@@ -88,11 +88,32 @@ Skills: methodology (probability)
 
 Getting started: implement a splitter
 
-Expected outcomes: 
+Expected outcomes: integration with `tsbootstrap`, `sktime` coverage and discoverability
 
-Stretch goal:
+Stretch goal: integration with sampling/distributions, `skpro`, advanced roadmap items
 
 Mentors: astrogilda, fkiraly, benheid
+
+Difficulty: Medium
+
+Length: 350 hours
+
+
+### categorical and time-constant features in forecasting
+
+* extend framework for full support of categorical features and time-constant features
+* implement transformers and feature extractors, or interface 3rd party
+* ensure pipelines, tuning, composites, hierarchical support work end-to-end
+
+Skills: sklearn and sklearn extensions with categorical features, framework/python, helpful: familiarity with finance or retail use cases
+
+Getting started: interface a categorical feature encoder
+
+Expected outcomes: basic support for categorical features in sktime
+
+Stretch goal: full end-to-end support, noteobook/tutorials
+
+Mentors: yarnabrina, fkiraly
 
 Difficulty: Medium
 
