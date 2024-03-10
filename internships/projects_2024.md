@@ -27,7 +27,7 @@ Mentors: any
 
 Difficulty: easy
 
-Length: 175 hours (or less)
+Length: 90 hours
 
 
 ### global forecasting and reduction forecasting
