@@ -81,12 +81,21 @@ Pages with such information should be created, and cross-linked from the top and
 
 ### Timeline
 
+Sprints are two weeks long.
 
-## Budget
+| Sprint no | Action items |
+|-----------------|-----------------|
+| 1 sprint | Onboarding, doc audit, user journey logs |
+| 3 sprints | module guides rework, learning tasks and taxonomies |
+| 5 sprints | estimator lookup, search, interlinkage |
+| 1 sprint | documentation sprint |
+| 2 sprints | contingency |
+
+### Budget
 
 | Budget item     | Amount in USD          | Running total   | Justification   |
 |-----------------|-----------------|-----------------|-----------------|
-| Technical writer salaries | 10.500 | 10.500 | technical writer |
+| Technical writer salaries | 10.500 | 10.500 | technical writer(s) |
 | Documentation sprint | 2.500 | 13.000 | 1-week sprint for colocation - travel/lodging support, venue |
 | Mentor/supervision | 1.950 | 14.950 | 2-3 mentors/supervisors, 1wk FTE |
 | Giant inflatable unicorn | 50 | 15.000 | as required by Google |
