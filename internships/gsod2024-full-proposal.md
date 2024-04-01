@@ -59,10 +59,32 @@ Pages with such information should be created, and cross-linked from the top and
 
 ### Scope
 
-* user journey design and implementation of improvements to the online documentation, for presentation, lookup, and interlinkage of estimators, algorithms, and other first-class objects in `sktime`
-* added technical documentation on taxonomic primitives, e.g., estimator types, data types, tags, in the web documentation
-* extensions of `python` code in the package, estimator taxonomy, or web logic that make it easier for the user to search, retrieve, and understand algorithms by their capabilities
-* bonus: improvements to formal algorithm taxonomies and core interfaces of the python objects, motivated by improved user journeys, categories, or common user taxonomies not currently mirrored in the `python` design
+1. user journey design and implementation of improvements to the online documentation, for presentation, lookup, and interlinkage of estimators, algorithms, and other first-class objects in `sktime`
+2. added technical documentation on taxonomic primitives, e.g., estimator types, data types, tags, in the web documentation
+3. extensions of `python` code in the package, estimator taxonomy, or web logic that make it easier for the user to search, retrieve, and understand algorithms by their capabilities
+4. bonus: improvements to formal algorithm taxonomies and core interfaces of the python objects, motivated by improved user journeys, categories, or common user taxonomies not currently mirrored in the `python` design
+
+#### 1. Improved user journeys in the online documentation
+
+* Conduct a basic audit of current user journeys for various personas (new user, power user, new contributor, developer) and entry points (webpage, GitHub)
+* Improve basic user journeys - streamline, simplify, modify, create
+* Work through prioritized items in relation to user guides, tutorials; integrate new content from workshops and contributions 2023-2024
+
+#### 2. Technical Documentation on Taxonomic Primitives
+
+* Provide detailed documentation of sktime's basic components, including estimator types, data types, and tags.
+* Introduce mathematical or conceptual explanations alongside practical demonstrations for clarity.
+* Expand on tutorials and examples, integrating benchmarking to enable comparisons. The extended goal is to create a resource similar to the comprehensive documentation of `scikit-learn`, particularly their [User Guide](https://scikit-learn.org/stable/user_guide.html) and [Examples](https://scikit-learn.org/stable/auto_examples/index.html).
+
+#### 3.  Enhancement of General Web UI and Lookup Functionality
+
+* Improve the accessibility of online documentation, possibly incorporating interactive elements for better presentation and user engagement.
+* Develop a database-like system to interlink `sktime`'s estimators and other core objects, enabling efficient queries and navigation.
+
+#### 4. Extension and Improvement of Python Code and API
+
+* Extend and enhance the python codebase to facilitate improvements in online documentation, particularly focusing on estimator taxonomy and core retrieval API.
+* Engage in ongoing API discussions of module design and organization such as Issue [#4950](https://github.com/sktime/sktime/issues/4950).
 
 ### Measures of success
 
