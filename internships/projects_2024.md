@@ -177,7 +177,7 @@ Expected outcomes: professional benchmarking framework module
 
 Stretch goal: run or replicate a major benchmarking study, publish paper
 
-Mentors: tbd
+Mentors: fkiraly, benheid
 
 Difficulty: medium
 
