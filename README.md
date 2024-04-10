@@ -1,8 +1,8 @@
 # Welcome to sktime's mentoring program
 
 Community members and new joiners are invited to apply to the internship and mentorship programs: 
-- [Google Summer of Code 2024](https://github.com/sktime/mentoring/blob/main/internships/gsoc2024.md) - apply before April 2, 6pm UTC
 - [sktime mentoring scheme](https://www.sktime.net/en/latest/get_involved/mentoring.html) - applications on rolling basis
+- [Google Summer of Code 2024](https://github.com/sktime/mentoring/blob/main/internships/gsoc2024.md) - applications closed
 - sktime internships (applications closed)
 - Google Season of Docs (applications closed)
 - Outreachy (applications closed)
