@@ -26,7 +26,32 @@ Stretch goal: foundation model integration, research benchmark study
 
 Mentors: agobbifbk, benheid, fkiraly
 
-Difficulty: medium (basic), hard (advanced)
+Difficulty: easy (basic, short), hard (advanced)
+
+Length: 90 hours (short), 175 hours (basic), 350 hours (advanced)
+
+Max projects: 3
+
+
+### foundations models - development, interfaces, research
+
+* mature and complete integrations of pre-trained models and foundation models in `sktime`
+* layer integration with `pytorch-forecasting` and `scikit-base`
+* short: interfacing a 3rd party foundation model from the [umbrella issue](https://github.com/sktime/sktime/issues/6177)
+* advanced: re-design of foundation model API elements - pre-training, fine-tuning
+* advanced: rearchitecture of existing foundation models in `sktime`, integration with `pytorch-forecasting`
+
+Skills: `torch`, `huggingface`, `transformers`, methodology (DL, LLM), familiarity with training, checkpointing, interence, hubs
+
+Getting started: interface a 3rd party foundation model
+
+Expected outcomes: consolidated interfaces for pre-trained model, forecasting
+
+Stretch goal: other learning tasks, research benchmark study
+
+Mentors: geetu040, benheid
+
+Difficulty: easy (basic, short), hard (advanced)
 
 Length: 90 hours (short), 175 hours (basic), 350 hours (advanced)
 
@@ -128,7 +153,7 @@ Stretch goal: become maintainer or join an application project
 
 Mentors: tveten, alex-jb3, robot-psychologist
 
-Difficulty: easy (basic), medium (advanced)
+Difficulty: easy (basic, short), medium (advanced)
 
 Length: 90 hours (short), 175 hours (basic), or 350 hours (advanced items)
 
