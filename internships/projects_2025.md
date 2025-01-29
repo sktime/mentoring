@@ -8,6 +8,55 @@ The below list is only an ideas starter - we welcome and actively encourage brin
 For information on mentoring, summer programmes and application processes, see [here](https://github.com/sktime/mentoring) for the newest information.
 
 
+### pytorch-forecasting & dsipts - redesign, sktime integration
+
+* rework of `pytorch-forecasting` & `dsipts` interfaces towards version 2.0
+* uniformization of `torch` `dataset` and `dataloader`-s across projects
+* short: migrate one or two research grade deep learning models to `pytorch-forecasting`
+* advanced: pre-trained models and serialization interfaces - design, implementation
+* advanced: rework of `sktime` `torch` backend, move to `pytorch-forecasting`
+
+Skills: `torch`, methodology (deep learning), familiarity with training, checkpointing, interence, hubs
+
+Getting started: rework one `pytorch-forecasting` model
+
+Expected outcomes: `pytorch-forecasting` rearchitecture & integration to 2.0
+
+Stretch goal: foundation model integration, research benchmark study
+
+Mentors: agobbifbk, benheid, fkiraly
+
+Difficulty: medium (basic), hard (advanced)
+
+Length: 90 hours (short), 175 hours (basic), 350 hours (advanced)
+
+Max projects: 3
+
+
+### hyperparameter tuning engines, auto-ML and model optimization
+
+* integration of `sktime` with `hyperactive` package, abstract tuners
+* integration of `hyperactive` with `optuna`, `hyperopt`
+* refactor implementation of basic tuning strategies
+* `optuna` based tuning for various learning tasks: detection, classification, time-to-event
+* advanced: API refactor
+
+Skills: optimization, automl, `optuna` and similar tuning packages;
+
+Getting started: interface pytorch-forecast or darts
+
+Expected outcomes: a few deep learning forecasters integrated
+
+Stretch goal: public foundation model for forecasting, "own" deep learning module, or benchmarking study
+
+Mentors: simonblanke, fkiraly
+
+Difficulty: medium (175), hard (advanced)
+
+Length: 175 (basic) or 350 hours (advanced)
+
+Max projects: 1
+
 
 ### hierarchical models and hierarchical distributions
 
@@ -25,11 +74,13 @@ Expected outcomes: improved support for probabilistic models - API extension or 
 
 Stretch goal: improved integration between sktime, skpro, prophetverse for hierarchical indices
 
-Mentors: felipeangelimvieira, meraldoantonio, SaiRevanth25
+Mentors: felipeangelimvieira, fkiraly
 
 Difficulty: medium (basic), hard (advanced)
 
-Length: 175 or 350 hours
+Length: 175 (basic) or 350 hours (advanced)
+
+Max projects: 2
 
 
 ### probabilistic forecasting, survival models, Bayesian interfaces
@@ -56,12 +107,13 @@ Difficulty: medium (basic), hard (advanced)
 
 Length: 175 or 350 hours
 
+Max projects: 3
+
 
 ### detection framework with sktime and skchange
 
-* work with sktime core developers to expand the detection framework
-* segmentation, change point detection, anomaly detection
-* implementing and interfacing new algorithms and metrics
+* expand the detection framework in sktime - segmentation, change point detection, anomaly detection
+* short project: implementing and interfacing new algorithms and metrics
 * advanced: multi-channel detection
 * advanced: tuning, auto-ml, ensembles
 * optional: application in affiliated real-world projects
@@ -78,7 +130,9 @@ Mentors: tveten, alex-jb3, robot-psychologist
 
 Difficulty: easy (basic), medium (advanced)
 
-Length: 175 hours (basic), or 350 hours (advanced items)
+Length: 90 hours (short), 175 hours (basic), or 350 hours (advanced items)
+
+Max projects: 3
 
 
 ### benchmarking framework
@@ -98,5 +152,7 @@ Stretch goal: run or replicate a major benchmarking study, publish paper
 Mentors: fkiraly, benheid
 
 Difficulty: medium
+
+Max projects: 1
 
 Length: 175 or 350 hours
