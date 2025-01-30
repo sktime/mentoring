@@ -24,7 +24,7 @@ Expected outcomes: `pytorch-forecasting` rearchitecture & integration to 2.0
 
 Stretch goal: foundation model integration, research benchmark study
 
-Mentors: agobbifbk, benheid, fkiraly
+Mentors: agobbifbk, fnhirwa, fkiraly, (benheid)
 
 Difficulty: easy (basic, short), hard (advanced)
 
@@ -49,7 +49,7 @@ Expected outcomes: consolidated interfaces for pre-trained model, forecasting
 
 Stretch goal: other learning tasks, research benchmark study
 
-Mentors: geetu040, benheid
+Mentors: geetu040, fnhirwa, (benheid)
 
 Difficulty: easy (basic, short), hard (advanced)
 
@@ -108,6 +108,31 @@ Length: 175 (basic) or 350 hours (advanced)
 Max projects: 2
 
 
+### stream and online support for forecasting and detection tasks
+
+* help expanding efficient stream/online update for existing forecasting models in `sktime`
+* stream/update compositors for forecasting models and transformation models
+* advanced: stream/update API architecture for transformations
+* advanced: stream/update API architecture for anomaly and changepoint detection, predictive monitoring
+* short: add `update` method for one or two existing, widely used estimators
+
+Skills: methodology (forecasting, stream/online), "rolling your own estimator"; advanced: sklearn and sktime internals
+
+Getting started: adding dedicated `update` to `statsmodels` estimators, or `NaiveForecaster`
+
+Expected outcomes: implemented update feature for 3-5 forecasters
+
+Stretch goal: stream and online API for forecasting, transformations, and/or detection
+
+Mentors: fkiraly, felipeangelimvieira
+
+Difficulty: easy (basic, short), hard (advanced)
+
+Length: 90 (short), 175 (basic) or 350 hours (advanced)
+
+Max projects: 2
+
+
 ### probabilistic forecasting, survival models, Bayesian interfaces
 
 * help developing the [`skpro`](https://github.com/sktime/skpro/issues) package - distributions, time-to-event models, reductions
@@ -130,7 +155,7 @@ Mentors: felipeangelimvieira, meraldoantonio, SaiRevanth25
 
 Difficulty: medium (basic), hard (advanced)
 
-Length: 175 or 350 hours
+Length: 175 (basic) or 350 hours (advanced)
 
 Max projects: 3
 
