@@ -5,6 +5,8 @@ For getting started or smaller projects, see our curated list of [good first iss
 
 The below list is only an ideas starter - we welcome and actively encourage bringing your own ideas to the table!
 
+A useful reference is also the [2025 project roadmap](https://github.com/sktime/sktime/issues/7707) for `sktime`, `pytorch-forecasting`, `dsipts`, `skpro`, `skchange`, and adjacent packages.
+
 For information on mentoring, summer programmes and application processes, see [here](https://github.com/sktime/mentoring) for the newest information.
 
 
