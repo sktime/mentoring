@@ -178,7 +178,7 @@ Expected outcomes: algorithms implemented; advanced compositors (if advanced)
 
 Stretch goal: become maintainer or join an application project
 
-Mentors: tveten, alex-jb3, robot-psychologist
+Mentors: tveten, alex-jg3, robot-psychologist
 
 Difficulty: easy (basic, short), medium (advanced)
 
