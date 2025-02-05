@@ -67,14 +67,40 @@ Max projects: 3
 * refactor implementation of basic tuning strategies
 * `optuna` based tuning for various learning tasks: detection, classification, time-to-event
 * advanced: API refactor
+* advanced: implementation of the hyperband algorithm
 
-Skills: optimization, automl, `optuna` and similar tuning packages;
+Skills: python, optimization, automl, `optuna` and similar tuning packages;
 
 Getting started: interface pytorch-forecast or darts
 
 Expected outcomes: a few deep learning forecasters integrated
 
 Stretch goal: public foundation model for forecasting, "own" deep learning module, or benchmarking study
+
+Mentors: simonblanke, fkiraly
+
+Difficulty: medium (175), hard (advanced)
+
+Length: 175 (basic) or 350 hours (advanced)
+
+Max projects: 1
+
+
+### gradient-free-optimization algorithms
+
+new implementation of:
+* the harmonic search algorithm
+* advanced: the ant-colony optimization algorithm
+* space-filling curves (Hilbert-curve, Z-Order curve) for grid-search
+* add new acquisition functions for bayesian optimization
+
+Skills: python, mathematical optimization;
+
+Getting started: look into structure of existing optimization algorithms in the `Gradient-Free-Optimizers`-package
+
+Expected outcomes: add new optimization algorithm
+
+Stretch goal: performance benchmarking of new algorithm against other optimization algorithms
 
 Mentors: simonblanke, fkiraly
 
