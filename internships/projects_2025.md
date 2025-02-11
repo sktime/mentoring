@@ -12,11 +12,12 @@ For information on mentoring, summer programmes and application processes, see [
 
 ### pytorch-forecasting & dsipts - redesign, sktime integration
 
-* rework of `pytorch-forecasting` & `dsipts` interfaces towards version 2.0
-* uniformization of `torch` `dataset` and `dataloader`-s across projects
+* [rework of `pytorch-forecasting` & `dsipts` & `sktime` interfaces towards version 2.0](https://github.com/sktime/pytorch-forecasting/issues/1736)
+* uniformization of `torch` `dataset` and `dataloader`-s across the three projects
 * short: migrate one or two research grade deep learning models to `pytorch-forecasting`
 * advanced: pre-trained models and serialization interfaces - design, implementation
 * advanced: rework of `sktime` `torch` backend, move to `pytorch-forecasting`
+* advanced: integration of foundation models
 
 Skills: `torch`, methodology (deep learning), familiarity with training, checkpointing, interence, hubs
 
@@ -37,7 +38,7 @@ Max projects: 3
 
 ### foundations models - development, interfaces, research
 
-* mature and complete integrations of pre-trained models and foundation models in `sktime`
+* mature and complete integrations of pre-trained models and foundation models in `sktime`: [umbrella issue](https://github.com/sktime/sktime/issues/6177)
 * layer integration with `pytorch-forecasting` and `scikit-base`
 * short: interfacing a 3rd party foundation model from the [umbrella issue](https://github.com/sktime/sktime/issues/6177)
 * advanced: re-design of foundation model API elements - pre-training, fine-tuning
@@ -62,20 +63,20 @@ Max projects: 3
 
 ### hyperparameter tuning engines, auto-ML and model optimization
 
-* integration of `sktime` with `hyperactive` package, abstract tuners
+* integration of `sktime` with `hyperactive` package, abstract tuners - see [design discussion](https://github.com/SimonBlanke/Hyperactive/issues/93)
 * integration of `hyperactive` with `optuna`, `hyperopt`
-* refactor implementation of basic tuning strategies
+* refactor implementation of basic tuning strategies - `sktime` forecasting grid search, random search, `skopt` and `optuna` search
 * `optuna` based tuning for various learning tasks: detection, classification, time-to-event
 * advanced: API refactor
 * advanced: implementation of the hyperband algorithm
 
-Skills: python, optimization, automl, `optuna` and similar tuning packages;
+Skills: python, optimization, automl, `optuna` and similar tuning packages; `sktime` basics
 
-Getting started: interface pytorch-forecast or darts
+Getting started: implement one new hyperparameter tuning strategy for `sktime` forecasters: https://github.com/sktime/sktime/issues/4188
 
-Expected outcomes: a few deep learning forecasters integrated
+Expected outcomes: abstract hyperparameter tuning backends available in `sktime` via `hyperactive`
 
-Stretch goal: public foundation model for forecasting, "own" deep learning module, or benchmarking study
+Stretch goal: `hyperactive` complete API design and library for tuning strategies
 
 Mentors: simonblanke, fkiraly
 
@@ -86,19 +87,21 @@ Length: 175 (basic) or 350 hours (advanced)
 Max projects: 1
 
 
-### gradient-free-optimization algorithms
+### gradient-free-optimization algorithms for tuning
 
-new implementation of:
+`hyperactive` and `gradient-free-optimizers`- new implementation of:
+
 * the harmonic search algorithm
 * advanced: the ant-colony optimization algorithm
 * space-filling curves (Hilbert-curve, Z-Order curve) for grid-search
-* add new acquisition functions for bayesian optimization
+* advanced: add new acquisition functions for bayesian optimization
+* advanced: autoML module in `sktime` supporting GFO tuners
 
 Skills: python, mathematical optimization;
 
-Getting started: look into structure of existing optimization algorithms in the `Gradient-Free-Optimizers`-package
+Getting started: add one new optimization algorithm to [`Gradient-Free-Optimizers`-package](https://github.com/SimonBlanke/Gradient-Free-Optimizers)
 
-Expected outcomes: add new optimization algorithm
+Expected outcomes: new optimization algorithms
 
 Stretch goal: performance benchmarking of new algorithm against other optimization algorithms
 
@@ -115,13 +118,13 @@ Max projects: 1
 
 * extend hierarchical model features in sktime, skpro, prophetverse
 * help implement hierarchical estimators, see [hierarchical reconciliation](https://github.com/sktime/sktime/issues/2157)
-* API extension to hierarchical predictive distributions
+* API extension to hierarchical predictive distributions: https://github.com/sktime/skpro/issues/212
 * advanced: prophetverse - improvements to effects abstractions
 * advanced: hierarchical and multi-factor models for proba regression and survival analysis
 
 Skills: pandas/index handling, methodology (hierarchical models), probability, "rolling your own estimator", sklearn internals
 
-Getting started: implement a hierarchical reconciliation algorithm
+Getting started: implement a new hierarchical reconciliation algorithm in `sktime`: https://github.com/sktime/sktime/issues/7609
 
 Expected outcomes: improved support for probabilistic models - API extension or more estimators implemented
 
@@ -177,7 +180,7 @@ Getting started: adding `predict_interval` and `predict_proba` for estimators
 
 Expected outcomes: implemented 3-5 interesting estimators in the area
 
-Stretch goal: stream or point process modelling functionality
+Stretch goal: stream or point process modelling functionality (option 1); Bayesian modelling framework integration (option 2)
 
 Mentors: felipeangelimvieira, meraldoantonio, SaiRevanth25
 
@@ -198,7 +201,7 @@ Max projects: 3
 
 Skills: sklearn and sklearn-like extensions, "rolling your own estimator"; helpful: familiarity with detection tasks
 
-Getting started: detection algorithms and metrics wishlist
+Getting started: [detection algorithms and metrics wishlist](https://github.com/sktime/sktime/issues/6481)
 
 Expected outcomes: algorithms implemented; advanced compositors (if advanced)
 
