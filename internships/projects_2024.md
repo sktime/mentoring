@@ -1,5 +1,6 @@
-
 ## Summer project ideas 2024
+
+NOTE: this is the project ideas list for 2024. See [here for the 2025 list](https://github.com/sktime/mentoring/edit/main/internships/projects_2025.md).
 
 Below is a list of ideas for longer summer projects 2024 with `sktime`.
 For getting started or smaller projects, see our curated list of [good first issues and advice on getting started as an sktime developer](https://github.com/sktime/sktime/issues/1147).
