@@ -2,7 +2,7 @@
 
 Community members and new joiners are invited to apply to the internship and mentorship programs: 
 - [sktime mentoring scheme](https://www.sktime.net/en/latest/get_involved/mentoring.html) - applications on rolling basis
-- [European Summer of Code 2025](https://github.com/sktime/mentoring/blob/main/internships/esoc2025.md)
+- [European Summer of Code 2025](https://github.com/sktime/mentoring/blob/main/internships/esoc2025.md) - open until 7 April 2025, 18 UTC
 - Google Summer of Code 2024 (applications closed)
 - sktime internships (applications closed)
 - Google Season of Docs (applications closed)
