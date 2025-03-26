@@ -11,7 +11,7 @@ Community members and new joiners are invited to apply to the internship and men
 
 Slots are subject to mentor availability and application deadlines.
 
-Project ideas for 2024 are listed [here](https://github.com/sktime/mentoring/blob/main/internships/projects_2024.md).
+Project ideas for 2025 are listed [here](https://github.com/sktime/mentoring/blob/main/internships/projects_2025.md).
 
 Past and current mentees are listed [here](https://github.com/sktime/mentoring/issues?q=label%3Amentoring+).
 
