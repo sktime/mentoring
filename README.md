@@ -28,5 +28,5 @@ Useful information for prospective students and supervisors:
 ## Resources
 * [`template.md`](https://github.com/sktime/mentorship-programme/blob/master/template.md) provides a template for keeping notes during the mentorship program on [HackMD](https://hackmd.io).
 * [Open Life Science](https://openlifesci.org)
-* [The Turing Way](https://the-turing-way.netlify.app/welcome)
+* [The Turing Way](https://book.the-turing-way.org/)
 * [9 Questions Before Starting a Mentoring Program](http://www.mentoringstandard.com/9-questions-before-starting-a-mentoring-program/)
