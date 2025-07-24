@@ -15,7 +15,7 @@ This is a collaborative document to keep track of progress during the mentorship
 
 
 ## References
-The sktime mentorship programme is inspired by the [The Turing Way](https://the-turing-way.netlify.app/welcome) project and [Open Life Science](https://openlifesci.org) programme under a CC BY 4.0, Open Life Science (OLS-2), 2020 license.
+The sktime mentorship programme is inspired by the [The Turing Way](https://book.the-turing-way.org/) project and [Open Life Science](https://openlifesci.org) programme under a CC BY 4.0, Open Life Science (OLS-2), 2020 license.
 
 
 **Contents**
