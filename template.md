@@ -96,11 +96,17 @@ Meet with mentors to decide what the new task will be and understand sktime bett
 ## Week 3 - MMM DD
 
 ### work done
-
+Changelog Generator = Finalized cleaning formatting and section order.Cleaned PR from unrelated files and commits.
+FCNClassifier = Removed from EXCLUDED_TESTS after confirming all local tests pass. Submitted a PR to finalize.
+Issue #4303 docstring= Working on completing docstrings. Added formulas, clarified multioutput behavior, and formatted descriptions.
 ### Agenda
-
+Final review for changelog generator PR.
+emaining metrics for issue #4303.
 ### Questions
-
+Can I propose new labels for changelog categories?
 ### Notes
-
+advised not to shorten mathematical explanations unless needed.
+Learned to differentiate between evaluate and evaluate_by_index in docstring descriptions
 ### Actions, short-term goals
+Wrap up issue #4303 and get it reviewed
+Attend upcoming mentor sync to pick next issue
