@@ -65,7 +65,7 @@ Length:
 
 Max projects:
 
-## `pytorch-forecasting`
+## `pytorch-forecasting` and `DSIPTS`
 
 `pytorch-forecasting` is a high-level library for neural network–based time series forecasting.
 
