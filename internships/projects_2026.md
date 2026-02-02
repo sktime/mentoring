@@ -8,7 +8,18 @@ The below list is only an ideas starter - we welcome and actively encourage brin
 
 For information on mentoring, summer programmes and application processes, see [here](https://github.com/sktime/mentoring) for the newest information.
 
-### Migration of `tensorflow` based models to `torch`. 
+
+## `sktime`
+
+`sktime` is a Python library that makes it easy to analyze and forecast time series data using a scikit-learn-like interface.
+
+Github: https://github.com/sktime/sktime
+
+Website: https://www.sktime.net/
+
+Organisation: [GC.OS](https://gcos.ai/)
+
+### 1. Migration of `tensorflow` based models to `torch`. 
 
 * Complete migration to `torch` for Deep learning based models.
 * Move the current implementation of DL models from `tensorflow` to `torch`.
@@ -30,7 +41,41 @@ Length:
 
 Max projects: 
 
-### Foundation Models
+### 2. Foundation Models
+
+* mature and complete integrations of pre-trained models and foundation models in `sktime` and `pytorch-forecasting`: See issue [sktime#7598](https://github.com/sktime/sktime/issues/6177) and [pytorch-forecasting#1959](https://github.com/sktime/pytorch-forecasting/issues/1959)
+* layer integration with `pytorch-forecasting` and `scikit-base`.
+* interfacing a 3rd party foundation model from the umbrella issue
+* Create new `DataModule`, `Model` and `pkg` layer specifically for foundation models for `pytorch-forecasting-v2`.
+* Creating `pytorch-forecasting` a reliable provider of Foundation models to `sktime` with complete integration
+
+Skills: `torch`, `huggingface`, `transformers`, methodology (DL, LLM), familiarity with training, checkpointing, interence, hubs
+
+Getting started: interface a 3rd party foundation model
+
+Expected outcomes: consolidated interfaces for pre-trained model, forecasting
+
+Stretch goal: other learning tasks, research benchmark study
+
+Difficulty: 
+
+Mentors:
+
+Length: 
+
+Max projects:
+
+## `pytorch-forecasting`
+
+`pytorch-forecasting` is a high-level library for neural network–based time series forecasting.
+
+Github: https://github.com/sktime/pytorch-forecasting
+
+Website: https://pytorch-forecasting.readthedocs.io/
+
+Organisation: [GC.OS](https://gcos.ai/)
+
+### 1. Foundation Models
 
 * mature and complete integrations of pre-trained models and foundation models in `sktime` and `pytorch-forecasting`: See issue [sktime#7598](https://github.com/sktime/sktime/issues/6177) and [pytorch-forecasting#1959](https://github.com/sktime/pytorch-forecasting/issues/1959)
 * layer integration with `pytorch-forecasting` and `scikit-base`.
@@ -55,7 +100,7 @@ Length:
 Max projects:
 
 
-### pytorch-forecasting & dsipts - redesign, sktime integration
+### 2. pytorch-forecasting & dsipts - redesign, sktime integration
 
 * Improving D1/D2 layer and `pkg` layer to complete the v2 version
 * Complete migration of v1  model implementations to v2 (preferably with minimal changes to the source code).
