@@ -19,6 +19,8 @@ Website: https://www.sktime.net/
 
 Organisation: [GC.OS](https://gcos.ai/)
 
+Contributor Guide: https://github.com/sktime/sktime/blob/main/CONTRIBUTING.md
+
 ### 1. Migration of `tensorflow` based models to `torch`. 
 
 * Complete migration to `torch` for Deep learning based models.
@@ -74,6 +76,8 @@ Github: https://github.com/sktime/pytorch-forecasting
 Website: https://pytorch-forecasting.readthedocs.io/
 
 Organisation: [GC.OS](https://gcos.ai/)
+
+Contributor Guide: https://github.com/sktime/pytorch-forecasting/blob/main/CONTRIBUTING.md
 
 ### 1. Foundation Models
 
