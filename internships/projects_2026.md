@@ -37,11 +37,11 @@ Expected Outcomes: Complete migration of all `tensorflow` based model to `torch`
 
 Difficulty: 
 
-Mentors:
+Mentors: recreationalmath
 
 Length: 
 
-Max projects:
+Max projects: 2
 
 
 ### foundations models - development, interfaces, research
@@ -67,85 +67,6 @@ Difficulty: easy (basic, short), hard (advanced)
 Length: 90 hours (short), 175 hours (basic), 350 hours (advanced)
 
 Max projects: 3
-
-
-### hyperparameter tuning engines, auto-ML and model optimization
-
-* integration of `sktime` with `hyperactive` package, abstract tuners - see [design discussion](https://github.com/SimonBlanke/Hyperactive/issues/93)
-* integration of `hyperactive` with `optuna`, `hyperopt`
-* refactor implementation of basic tuning strategies - `sktime` forecasting grid search, random search, `skopt` and `optuna` search
-* `optuna` based tuning for various learning tasks: detection, classification, time-to-event
-* advanced: API refactor
-* advanced: implementation of the hyperband algorithm
-
-Skills: python, optimization, automl, `optuna` and similar tuning packages; `sktime` basics
-
-Getting started: implement one new hyperparameter tuning strategy for `sktime` forecasters: https://github.com/sktime/sktime/issues/4188
-
-Expected outcomes: abstract hyperparameter tuning backends available in `sktime` via `hyperactive`
-
-Stretch goal: `hyperactive` complete API design and library for tuning strategies
-
-Mentors: simonblanke, fkiraly
-
-Difficulty: medium (175), hard (advanced)
-
-Length: 175 (basic) or 350 hours (advanced)
-
-Max projects: 1
-
-
-### gradient-free-optimization algorithms for tuning
-
-`hyperactive` and `gradient-free-optimizers`- new implementation of:
-
-* the harmonic search algorithm
-* advanced: the ant-colony optimization algorithm
-* space-filling curves (Hilbert-curve, Z-Order curve) for grid-search
-* advanced: add new acquisition functions for bayesian optimization
-* advanced: autoML module in `sktime` supporting GFO tuners
-
-Skills: python, mathematical optimization;
-
-Getting started: add one new optimization algorithm to [`Gradient-Free-Optimizers`-package](https://github.com/SimonBlanke/Gradient-Free-Optimizers)
-
-Expected outcomes: new optimization algorithms
-
-Stretch goal: performance benchmarking of new algorithm against other optimization algorithms
-
-Mentors: simonblanke, fkiraly
-
-Difficulty: medium (175), hard (advanced)
-
-Length: 175 (basic) or 350 hours (advanced)
-
-Max projects: 1
-
-
-### foundations models - development, interfaces, research
-
-* mature and complete integrations of pre-trained models and foundation models in `sktime`: [umbrella issue](https://github.com/sktime/sktime/issues/6177)
-* layer integration with `pytorch-forecasting` and `scikit-base`
-* short: interfacing a 3rd party foundation model from the [umbrella issue](https://github.com/sktime/sktime/issues/6177)
-* advanced: re-design of foundation model API elements - pre-training, fine-tuning
-* advanced: rearchitecture of existing foundation models in `sktime`, integration with `pytorch-forecasting`
-
-Skills: `torch`, `huggingface`, `transformers`, methodology (DL, LLM), familiarity with training, checkpointing, interence, hubs
-
-Getting started: interface a 3rd party foundation model
-
-Expected outcomes: consolidated interfaces for pre-trained model, forecasting
-
-Stretch goal: other learning tasks, research benchmark study
-
-Mentors: geetu040, recreationalmath, fkiraly
-
-Difficulty: easy (basic, short), hard (advanced)
-
-Length: 90 hours (short), 175 hours (basic), 350 hours (advanced)
-
-Max projects: 3
-
 ### hierarchical models and hierarchical distributions
 
 * extend hierarchical model features in sktime, skpro, prophetverse
