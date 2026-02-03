@@ -60,13 +60,14 @@ Expected outcomes: consolidated interfaces for pre-trained model, forecasting
 
 Stretch goal: other learning tasks, research benchmark study
 
-Mentors: geetu040, fnhirwa, (benheid)
+Mentors: geetu040, fkiraly, recreationalmath
 
 Difficulty: easy (basic, short), hard (advanced)
 
 Length: 90 hours (short), 175 hours (basic), 350 hours (advanced)
 
 Max projects: 3
+
 ### hierarchical models and hierarchical distributions
 
 * extend hierarchical model features in sktime, skpro, prophetverse
