@@ -23,23 +23,28 @@ Contributor Guide: https://github.com/sktime/sktime/blob/main/CONTRIBUTING.md
 
 ### Migration of `tensorflow` based models to `torch`. 
 
-* Complete migration to `torch` for Deep learning based models.
-* Move the current implementation of DL models from `tensorflow` to `torch`.
+* Complete the migration of deep learning models from tensorflow to torch. See issue [sktime/#8699](https://github.com/sktime/sktime/issues/8699) for more details. The comment section of linked issue contains already migrated models, which can be used as a template. For example, [RNN classifier from sktime/#8842](https://github.com/sktime/sktime/pull/8842) and [RNN regressor from sktime/#9013](https://github.com/sktime/sktime/pull/9013)
 * Create a unified workflow with base `dataset` and `model` class. See issue [sktime#7598](https://github.com/sktime/sktime/issues/7598)
+* Issue [sktime/#8928](https://github.com/sktime/sktime/issues/8928) has more ideas that can be incorporated as part of advanced projects.
 * Add new models with `torch` implementation.
-* See `sktime` [issue](https://github.com/sktime/sktime/issues/8699) for more details.
+* Project 1 (advanced):
+  * task 1: migrate 2 to 4 models (of your choice) from [sktime/#8699](https://github.com/sktime/sktime/issues/8699). Template for migration will be provided. This will give you familiarity of the codebase and an entry point to think about task 2.
+  * task 2: implement some enhancements (of your choice) from issues: [sktime#7598](https://github.com/sktime/sktime/issues/7598) and [sktime/#8928](https://github.com/sktime/sktime/issues/8928). 
+* Project 2 (advanced):
+  * task 1: migrate 2 to 4 models (of your choice) from [sktime/#8699](https://github.com/sktime/sktime/issues/8699). Template for migration will be provided. This will give you familiarity of the codebase and an entry point to think about task 2.
+  * task 2: implement some enhancements (of your choice) from issues: [sktime#7598](https://github.com/sktime/sktime/issues/7598) and [sktime/#8928](https://github.com/sktime/sktime/issues/8928)
 
-Skills: `torch`, methodology (deep learning), familiarity with training, checkpointing, interence, hubs.
+Skills: `torch`, some parts may require knowledge of torch ecosystem libraries (such as lightning, torchmetrics), methodology (deep learning), familiarity with training, checkpointing, interence, hubs.
 
-Getting started: migrate one `tensorflow` based model to `torch` in `sktime`. You can find some models [here](https://github.com/sktime/sktime/tree/main/sktime/classification/deep_learning).
+Getting started: migrate one `tensorflow` based model to `torch` in `sktime`. See issue [sktime/#8699](https://github.com/sktime/sktime/issues/8699) for more details.
 
-Expected Outcomes: Complete migration of all `tensorflow` based model to `torch` in `sktime`
+Expected Outcomes: Complete migration of all `tensorflow` based models to `torch` in `sktime`
 
-Difficulty: 
+Difficulty: moderate
 
-Mentors: recreationalmath
+Mentors: RecreationalMath
 
-Length: 
+Length: 350 hours (advanced)
 
 Max projects: 2
 
@@ -60,7 +65,7 @@ Expected outcomes: consolidated interfaces for pre-trained model, forecasting
 
 Stretch goal: other learning tasks, research benchmark study
 
-Mentors: geetu040, fkiraly, recreationalmath
+Mentors: geetu040, fkiraly, RecreationalMath
 
 Difficulty: easy (basic, short), hard (advanced)
 
