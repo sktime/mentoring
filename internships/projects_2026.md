@@ -28,10 +28,10 @@ Contributor Guide: https://github.com/sktime/sktime/blob/main/CONTRIBUTING.md
 * Issue [sktime/#8928](https://github.com/sktime/sktime/issues/8928) has more ideas that can be incorporated as part of advanced projects.
 * Add new models with `torch` implementation.
 * Project 1 (advanced):
-  * task 1: migrate 3 to 5 models from [sktime/#8699](https://github.com/sktime/sktime/issues/8699). Template for migration will be provided. This will give you familiarity of the codebase and an entry point to think about task 2.
+  * task 1: migrate 3 to 6 models (of your choice) from [sktime/#8699](https://github.com/sktime/sktime/issues/8699). Template for migration will be provided. This will give you familiarity of the codebase and an entry point to think about task 2.
   * task 2: implement some enhancements (of your choice) from issues: [sktime#7598](https://github.com/sktime/sktime/issues/7598) and [sktime/#8928](https://github.com/sktime/sktime/issues/8928). 
 * Project 2 (advanced):
-  * task 1: migrate 3 to 5 models from [sktime/#8699](https://github.com/sktime/sktime/issues/8699). Template for migration will be provided. This will give you familiarity of the codebase and an entry point to think about task 2.
+  * task 1: migrate 3 to 6 models (of your choice) from [sktime/#8699](https://github.com/sktime/sktime/issues/8699). Template for migration will be provided. This will give you familiarity of the codebase and an entry point to think about task 2.
   * task 2: implement some enhancements (of your choice) from issues: [sktime#7598](https://github.com/sktime/sktime/issues/7598) and [sktime/#8928](https://github.com/sktime/sktime/issues/8928)
 
 Skills: `torch`, some parts may require knowledge of torch ecosystem libraries (such as lightning, torchmetrics), methodology (deep learning), familiarity with training, checkpointing, interence, hubs.
