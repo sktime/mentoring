@@ -1,7 +1,7 @@
 # Project Ideas for 2026
 
 
-Below is a list of ideas for longer mid-year projects 2025 with `sktime`.
+Below is a list of ideas for longer mid-year projects 2026 with `sktime`, `skpro`, and `pytorch-forecasting`.
 For getting started or smaller projects, see our curated list of [good first issues and advice on getting started as an sktime developer](https://github.com/sktime/sktime/issues/1147).
 
 The below list is only an ideas starter - we welcome and actively encourage bringing your own ideas to the table!
@@ -123,33 +123,6 @@ Length: 90 (short), 175 (basic) or 350 hours (advanced)
 Max projects: 2
 
 
-### probabilistic forecasting, survival models, Bayesian interfaces
-
-* help developing the [`skpro`](https://github.com/sktime/skpro/issues) package - distributions, time-to-event models, reductions
-* help implement estimators and compositors from the wishlists:
-   * skpro: [estimators](https://github.com/sktime/skpro/issues/7), [distributions](https://github.com/sktime/skpro/issues/22)
-   * sktime: [proba forecasting list](https://github.com/sktime/sktime/issues/1742), [proba for compositors list](https://github.com/sktime/sktime/issues/2088)
-* examples: model-based prediction intervals, probabilistic ensembles
-* advanced: develop Bayesian modelling API for regression and forecasting - prior/posterior handling, update
-* advanced: on-line, stream/update functionality for regression
-
-Skills: methodology (forecasting), probability, "rolling your own estimator", sklearn internals; advanced: methodology (Bayesian, online)
-
-Getting started: adding `predict_interval` and `predict_proba` for estimators
-
-Expected outcomes: implemented 3-5 interesting estimators in the area
-
-Stretch goal: stream or point process modelling functionality (option 1); Bayesian modelling framework integration (option 2)
-
-Mentors: felipeangelimvieira, meraldoantonio, SaiRevanth25
-
-Difficulty: medium (basic), hard (advanced)
-
-Length: 175 (basic) or 350 hours (advanced)
-
-Max projects: 3
-
-
 ### detection framework with sktime and skchange
 
 * expand the detection framework in sktime - segmentation, change point detection, anomaly detection
@@ -227,13 +200,13 @@ Expected outcomes: consolidated interfaces for pre-trained model, forecasting
 
 Stretch goal: other learning tasks, research benchmark study
 
-Difficulty: 
+Difficulty: medium (basic), hard (advanced)
 
-Mentors:
+Length: 175 (basic) or 350 hours (advanced)
 
-Length: 
+Mentors: phoeenniixx, agobbifbk
 
-Max projects:
+Max projects:3
 
 
 ### 2. pytorch-forecasting & dsipts - redesign, sktime integration
@@ -252,11 +225,41 @@ Expected outcomes: `pytorch-forecasting` rearchitecture & integration to 2.0
 
 Stretch goal: foundation model integration, research benchmark study
 
-Difficulty: 
+Difficulty: medium (basic), hard (advanced)
 
-Mentors:
+Length: 175 (basic) or 350 hours (advanced)
 
-Length: 
+Mentors: phoeenniixx, agobbifbk
 
-Max projects:
+Max projects: 2
+
+
+## skpro
+
+### probabilistic forecasting, survival models, Bayesian interfaces
+
+* help developing the [`skpro`](https://github.com/sktime/skpro/issues) package - distributions, time-to-event models, reductions
+* help implement estimators and compositors from the wishlists:
+   * skpro: [estimators](https://github.com/sktime/skpro/issues/7), [distributions](https://github.com/sktime/skpro/issues/22)
+   * sktime: [proba forecasting list](https://github.com/sktime/sktime/issues/1742), [proba for compositors list](https://github.com/sktime/sktime/issues/2088)
+* examples: model-based prediction intervals, probabilistic ensembles
+* advanced: develop Bayesian modelling API for regression and forecasting - prior/posterior handling, update
+* advanced: on-line, stream/update functionality for regression
+
+Skills: methodology (forecasting), probability, "rolling your own estimator", sklearn internals; advanced: methodology (Bayesian, online)
+
+Getting started: adding `predict_interval` and `predict_proba` for estimators
+
+Expected outcomes: implemented 3-5 interesting estimators in the area
+
+Stretch goal: stream or point process modelling functionality (option 1); Bayesian modelling framework integration (option 2)
+
+Mentors: felipeangelimvieira, meraldoantonio, SaiRevanth25
+
+Difficulty: medium (basic), hard (advanced)
+
+Length: 175 (basic) or 350 hours (advanced)
+
+Max projects: 3
+
 
