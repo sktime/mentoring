@@ -254,7 +254,7 @@ Expected outcomes: implemented 3-5 interesting estimators in the area
 
 Stretch goal: stream or point process modelling functionality (option 1); Bayesian modelling framework integration (option 2)
 
-Mentors: felipeangelimvieira, meraldoantonio, SaiRevanth25
+Mentors: fkiraly, felipeangelimvieira, marrov
 
 Difficulty: medium (basic), hard (advanced)
 
