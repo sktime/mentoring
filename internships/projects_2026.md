@@ -147,31 +147,6 @@ Length: 90 hours (short), 175 hours (basic), or 350 hours (advanced items)
 
 Max projects: 3
 
-
-### Foundation Models - `pytorch-forecasting` integration
-
-* mature and complete integrations of pre-trained models and foundation models in `sktime` and `pytorch-forecasting`: See issue [sktime#7598](https://github.com/sktime/sktime/issues/6177) and [pytorch-forecasting#1959](https://github.com/sktime/pytorch-forecasting/issues/1959)
-* layer integration with `pytorch-forecasting` and `scikit-base`.
-* interfacing a 3rd party foundation model from the umbrella issue
-* Create new `DataModule`, `Model` and `pkg` layer specifically for foundation models for `pytorch-forecasting-v2`.
-* Creating `pytorch-forecasting` a reliable provider of Foundation models to `sktime` with complete integration
-
-Skills: `torch`, `huggingface`, `transformers`, methodology (DL, LLM), familiarity with training, checkpointing, interence, hubs
-
-Getting started: interface a 3rd party foundation model
-
-Expected outcomes: consolidated interfaces for pre-trained model, forecasting
-
-Stretch goal: other learning tasks, research benchmark study
-
-Difficulty: 
-
-Mentors:
-
-Length: 
-
-Max projects:
-
 ## `pytorch-forecasting` and `DSIPTS`
 
 `pytorch-forecasting` is a high-level library for neural network–based time series forecasting.
