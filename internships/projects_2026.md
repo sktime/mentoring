@@ -21,35 +21,85 @@ Organisation: [GC.OS](https://gcos.ai/)
 
 Contributor Guide: https://github.com/sktime/sktime/blob/main/CONTRIBUTING.md
 
-### Migration of `tensorflow` based models to `torch`. 
+### Project 1: Migrate tapnet, resnet and cntc `tensorflow` based models to `torch` and enhance the `torch` models in `sktime` by adding support for features from the wishlist.
 
+Detailed description of the project (2-5 sentences) 
 * Complete the migration of deep learning models from tensorflow to torch. See issue [sktime/#8699](https://github.com/sktime/sktime/issues/8699) for more details. The comment section of linked issue contains already migrated models, which can be used as a template. For example, [RNN classifier from sktime/#8842](https://github.com/sktime/sktime/pull/8842) and [RNN regressor from sktime/#9013](https://github.com/sktime/sktime/pull/9013)
 * Create a unified workflow with base `dataset` and `model` class. See issue [sktime#7598](https://github.com/sktime/sktime/issues/7598)
 * Issue [sktime/#8928](https://github.com/sktime/sktime/issues/8928) has more ideas that can be incorporated as part of advanced projects.
 * Add new models with `torch` implementation.
-* Project 1 (advanced):
-  * task 1: migrate 2 to 4 models (of your choice) from [sktime/#8699](https://github.com/sktime/sktime/issues/8699). Template for migration will be provided. This will give you familiarity of the codebase and an entry point to think about task 2.
-  * task 2: implement some enhancements (of your choice) from issues: [sktime#7598](https://github.com/sktime/sktime/issues/7598) and [sktime/#8928](https://github.com/sktime/sktime/issues/8928). 
-* Project 2 (advanced):
-  * task 1: migrate 2 to 4 models (of your choice) from [sktime/#8699](https://github.com/sktime/sktime/issues/8699). Template for migration will be provided. This will give you familiarity of the codebase and an entry point to think about task 2.
-  * task 2: implement some enhancements (of your choice) from issues: [sktime#7598](https://github.com/sktime/sktime/issues/7598) and [sktime/#8928](https://github.com/sktime/sktime/issues/8928)
+* task 1: migrate tapnet, resnet and cntc models Refer: [sktime/#8699](https://github.com/sktime/sktime/issues/8699). Template for migration will be provided. This will give you familiarity of the codebase and an entry point to think about task 2.
+* task 2: implement some enhancements (of your choice) from issues: [sktime#7598](https://github.com/sktime/sktime/issues/7598) and [sktime/#8928](https://github.com/sktime/sktime/issues/8928). 
 
-Skills: `torch`, some parts may require knowledge of torch ecosystem libraries (such as lightning, torchmetrics), methodology (deep learning), familiarity with training, checkpointing, interence, hubs.
+Expected Outcomes: Migrate tapnet, resnet and cntc `tensorflow` based models to `torch` in `sktime` and implement 1-3 enhancements of your choice from [sktime/#8928](https://github.com/sktime/sktime/issues/8928)
 
-Getting started: migrate one `tensorflow` based model to `torch` in `sktime`. See issue [sktime/#8699](https://github.com/sktime/sktime/issues/8699) for more details.
-
-Expected Outcomes: Complete migration of all `tensorflow` based models to `torch` in `sktime`
-
-Difficulty: moderate
+Skills required/preferred: `torch`, some parts may require knowledge of torch ecosystem libraries (such as lightning, torchmetrics), methodology (deep learning), familiarity with training, checkpointing, interence, hubs.
 
 Mentors: RecreationalMath
 
-Length: 350 hours (advanced)
+Expected size of project: 175 or 350 hour, depending on the choice of model and enhancement picked by the contributor.
 
-Max projects: 2
+Difficulty: moderate
+
+Getting started: migrate one `tensorflow` based model to `torch` in `sktime`. See issue [sktime/#8699](https://github.com/sktime/sktime/issues/8699) for more details.
 
 
-### foundations models - development, interfaces, research
+
+### Project 2: Migrate fcn, cnn `tensorflow` based models to `torch` and enhance the `torch` models in `sktime` by adding support for features from the wishlist.
+
+Detailed description of the project (2-5 sentences) 
+* Complete the migration of deep learning models from tensorflow to torch. See issue [sktime/#8699](https://github.com/sktime/sktime/issues/8699) for more details. The comment section of linked issue contains already migrated models, which can be used as a template. For example, [RNN classifier from sktime/#8842](https://github.com/sktime/sktime/pull/8842) and [RNN regressor from sktime/#9013](https://github.com/sktime/sktime/pull/9013)
+* Create a unified workflow with base `dataset` and `model` class. See issue [sktime#7598](https://github.com/sktime/sktime/issues/7598)
+* Issue [sktime/#8928](https://github.com/sktime/sktime/issues/8928) has more ideas that can be incorporated as part of advanced projects.
+* Add new models with `torch` implementation.
+* task 1: migrate fcn and cnn models (of your choice) from [sktime/#8699](https://github.com/sktime/sktime/issues/8699). Template for migration will be provided. This will give you familiarity of the codebase and an entry point to think about task 2.
+* task 2: migrate the mvtc_transformer, GRU, GRUFCNN and convtimenet models from old interface to the new interface in sktime. Details in above linked issue. This is a small task and can give insights into alternate implementations before picking an enhancement of your choice in task 3.
+* task 3: implement some enhancements (of your choice) from issues: [sktime#7598](https://github.com/sktime/sktime/issues/7598) and [sktime/#8928](https://github.com/sktime/sktime/issues/8928). 
+
+Expected Outcomes: Migrate fcn and cnn `tensorflow` based models to `torch` in `sktime` and implement 1-3 enhancements of your choice from [sktime/#8928](https://github.com/sktime/sktime/issues/8928)
+
+Skills required/preferred: `torch`, some parts may require knowledge of torch ecosystem libraries (such as lightning, torchmetrics), methodology (deep learning), familiarity with training, checkpointing, interence, hubs.
+
+Mentors: RecreationalMath
+
+Expected size of project: 175 or 350 hour, depending on the choice of model and enhancement picked by the contributor.
+
+Difficulty: moderate
+
+Getting started: migrate one `tensorflow` based model to `torch` in `sktime`. See issue [sktime/#8699](https://github.com/sktime/sktime/issues/8699) for more details.
+
+ chronos2 ([Issue](https://github.com/sktime/sktime/issues/8988), [dummy PR]((https://github.com/sktime/sktime/issues/8988)))
+    - [ ] LagLlama ([PR](https://github.com/sktime/sktime/pull/9194), [Issue](https://github.com/sktime/sktime/issues/6142), [old PR](https://github.com/sktime/sktime/pull/6659)) - review and get it to a merge state
+    - [ ] TabPFN-TS - [Issue](https://github.com/sktime/sktime/issues/8664)
+    - [ ] TabICL-TS - [Issue](https://github.com/sktime/sktime/issues/8665)
+    - [ ] momentfm Anomaly Detection  - [Issue](https://github.com/sktime/sktime/issues/6542)
+
+### Project 3: Interface foundations models - development, interfaces, research
+
+
+* mature and complete integrations of pre-trained models and foundation models in `sktime`: [umbrella issue](https://github.com/sktime/sktime/issues/6177)
+* layer integration with `pytorch-forecasting` and `scikit-base`
+* After doing the getting started task mentioned below, pick one of the task1 or task2 for the project.
+* task1: re-design of foundation model API elements - pre-training, fine-tuning
+* task2: rearchitecture of existing foundation models in `sktime`, integration with `pytorch-forecasting`
+
+Expected outcomes: interface 2 foundational models of your choice into sktime and while doing so work towards consolidating the interfaces for pre-trained model and forecasting
+
+Mentors: geetu040, fkiraly, RecreationalMath
+
+Expected size of project:  175 or 350 based on choice of model from the wishlist in the linked issue above.
+
+Difficulty: easy (basic, short), hard (advanced)
+
+Skills required/preferred : `torch`, `huggingface`, `transformers`, methodology (DL, LLM), familiarity with training, checkpointing, interence, hubs
+
+Getting started: interface a 3rd party foundation model please refer [umbrella issue](https://github.com/sktime/sktime/issues/6177)
+
+Stretch goal: other learning tasks, research benchmark study for contributors interested in advanced projects.
+
+
+
+### Project 4: Interface foundations models - development, interfaces, research
 
 * mature and complete integrations of pre-trained models and foundation models in `sktime`: [umbrella issue](https://github.com/sktime/sktime/issues/6177)
 * layer integration with `pytorch-forecasting` and `scikit-base`
@@ -57,19 +107,23 @@ Max projects: 2
 * advanced: re-design of foundation model API elements - pre-training, fine-tuning
 * advanced: rearchitecture of existing foundation models in `sktime`, integration with `pytorch-forecasting`
 
-Skills: `torch`, `huggingface`, `transformers`, methodology (DL, LLM), familiarity with training, checkpointing, interence, hubs
-
-Getting started: interface a 3rd party foundation model
-
-Expected outcomes: consolidated interfaces for pre-trained model, forecasting
-
-Stretch goal: other learning tasks, research benchmark study
+Expected outcomes: interface 2 foundational models of your choice into sktime and while doing so work towards consolidating the interfaces for pre-trained model and forecasting
 
 Mentors: geetu040, fkiraly, RecreationalMath
 
+Expected size of project:  175 or 350 based on choice of model from the wishlist in the linked issue above.
+
 Difficulty: easy (basic, short), hard (advanced)
 
-Length: 90 hours (short), 175 hours (basic), 350 hours (advanced)
+Skills required/preferred : `torch`, `huggingface`, `transformers`, methodology (DL, LLM), familiarity with training, checkpointing, interence, hubs
+
+Getting started: interface a 3rd party foundation model please refer [umbrella issue](https://github.com/sktime/sktime/issues/6177)
+
+Stretch goal: other learning tasks, research benchmark study for contributors interested in advanced projects.
+
+
+
+
 
 Max projects: 3
 
