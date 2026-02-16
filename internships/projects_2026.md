@@ -138,7 +138,8 @@ Detailed description of the project:
 
 ## pytorch-forecasting and DSIPTS
 
-`pytorch-forecasting` is a high-level library for neural network–based time series forecasting.
+`pytorch-forecasting` is a high-level library for neural network–based time series forecasting.  
+
 **Github:** https://github.com/sktime/pytorch-forecasting  
 **Website:** https://pytorch-forecasting.readthedocs.io/  
 **Organisation:** [GC.OS](https://gcos.ai/)  
@@ -213,6 +214,13 @@ Design of foundation model API elements - pre-training, fine-tuning. See issues 
 
 
 ## skpro
+
+`skpro` is a unified framework for tabular probabilistic regression, time-to-event prediction, and probability distributions in Python.  
+
+**Github:** https://github.com/sktime/skpro      
+**Website:** https://skpro.readthedocs.io/en/latest/  
+**Organisation:** [GC.OS](https://gcos.ai/)  
+**Contributor Guide:** https://github.com/sktime/skpro/blob/main/CONTRIBUTING.md  
 
 ### Probabilistic forecasting, survival models, Bayesian interfaces
 
