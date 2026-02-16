@@ -37,9 +37,9 @@ Skills required/preferred: `torch`, some parts may require knowledge of torch ec
 
 Mentors: RecreationalMath
 
-Expected size of project: 350 hour, depending on the choice of model and enhancement picked by the contributor.
+Expected size of project: 350 hours
 
-Difficulty: moderate
+Difficulty: medium
 
 Getting started: migrate one `tensorflow` based model to `torch` in `sktime`. See issue [sktime/#8699](https://github.com/sktime/sktime/issues/8699) for more details.
 
@@ -62,9 +62,9 @@ Skills required/preferred: `torch`, some parts may require knowledge of torch ec
 
 Mentors: RecreationalMath
 
-Expected size of project: 350 hour, depending on the enhancements picked by the contributor.
+Expected size of project: 350 hour
 
-Difficulty: moderate
+Difficulty: medium
 
 Getting started: migrate one `tensorflow` based model to `torch` in `sktime`. See issue [sktime/#8699](https://github.com/sktime/sktime/issues/8699) for more details.
 
@@ -83,7 +83,7 @@ Expected outcomes: interface 1 or 2 foundational models of your choice into skti
 
 Mentors: geetu040, fkiraly, RecreationalMath
 
-Expected size of project:  350 based on choice of model from the wishlist in the linked issue above.
+Expected size of project:  350 hours
 
 Difficulty: moderate to hard depending on the choice of models.
 
@@ -110,7 +110,7 @@ Mentors: geetu040, fkiraly, RecreationalMath
 
 Expected size of project:  175 or 350 based on choice of model from the wishlist in the linked issue above.
 
-Difficulty: moderate to hard based on the choice of models.
+Difficulty: medium to hard based on the choice of models.
 
 Skills required/preferred : `torch`, `huggingface`, `transformers`, methodology (DL, LLM), familiarity with training, checkpointing, interence, hubs
 
