@@ -319,11 +319,11 @@ Stretch goal: stream or point process modelling functionality (option 1); Bayesi
 Mentors: fkiraly, felipeangelimvieira, marrov
 
 Difficulty: 
-Project 1: medium 
-Project 2: hard 
-Project 3: hard
+- Project 1: medium 
+- Project 2: hard 
+- Project 3: hard
 
 Length: 
-Project 1: 175 
-Project 2: 350
-Project 3: 350
+- Project 1: 175 
+- Project 2: 350
+- Project 3: 350
