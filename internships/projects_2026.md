@@ -147,31 +147,6 @@ Length: 90 hours (short), 175 hours (basic), or 350 hours (advanced items)
 
 Max projects: 3
 
-
-### Foundation Models - `pytorch-forecasting` integration
-
-* mature and complete integrations of pre-trained models and foundation models in `sktime` and `pytorch-forecasting`: See issue [sktime#7598](https://github.com/sktime/sktime/issues/6177) and [pytorch-forecasting#1959](https://github.com/sktime/pytorch-forecasting/issues/1959)
-* layer integration with `pytorch-forecasting` and `scikit-base`.
-* interfacing a 3rd party foundation model from the umbrella issue
-* Create new `DataModule`, `Model` and `pkg` layer specifically for foundation models for `pytorch-forecasting-v2`.
-* Creating `pytorch-forecasting` a reliable provider of Foundation models to `sktime` with complete integration
-
-Skills: `torch`, `huggingface`, `transformers`, methodology (DL, LLM), familiarity with training, checkpointing, interence, hubs
-
-Getting started: interface a 3rd party foundation model
-
-Expected outcomes: consolidated interfaces for pre-trained model, forecasting
-
-Stretch goal: other learning tasks, research benchmark study
-
-Difficulty: 
-
-Mentors:
-
-Length: 
-
-Max projects:
-
 ## `pytorch-forecasting` and `DSIPTS`
 
 `pytorch-forecasting` is a high-level library for neural network–based time series forecasting.
@@ -185,8 +160,10 @@ Organisation: [GC.OS](https://gcos.ai/)
 Contributor Guide: https://github.com/sktime/pytorch-forecasting/blob/main/CONTRIBUTING.md
 
 ### 1. Foundation Models
+Complete integrations of pre-trained models and foundation models in `pytorch-forecasting`: [pytorch-forecasting#1959](https://github.com/sktime/pytorch-forecasting/issues/1959)
 
-* mature and complete integrations of pre-trained models and foundation models in `sktime` and `pytorch-forecasting`: See issue [sktime#7598](https://github.com/sktime/sktime/issues/6177) and [pytorch-forecasting#1959](https://github.com/sktime/pytorch-forecasting/issues/1959)
+#### 1.1 Difficulty: Advanced
+* mature and complete integrations of pre-trained models and foundation models in `sktime` and `pytorch-forecasting`: [pytorch-forecasting#1959](https://github.com/sktime/pytorch-forecasting/issues/1959)
 * layer integration with `pytorch-forecasting` and `scikit-base`.
 * interfacing a 3rd party foundation model from the umbrella issue
 * Create new `DataModule`, `Model` and `pkg` layer specifically for foundation models for `pytorch-forecasting-v2`.
@@ -200,38 +177,78 @@ Expected outcomes: consolidated interfaces for pre-trained model, forecasting
 
 Stretch goal: other learning tasks, research benchmark study
 
-Difficulty: medium (basic), hard (advanced)
+Difficulty: hard (advanced)
 
-Length: 175 (basic) or 350 hours (advanced)
+Length: 350 hours (advanced)
 
 Mentors: phoeenniixx, agobbifbk
 
-Max projects:3
-
 
 ### 2. pytorch-forecasting & dsipts - redesign, sktime integration
+Complete `pytorch-forecasting` v2 rework and releasing a stable version 2. See Roadmap issue [here](https://github.com/sktime/pytorch-forecasting/issues/1993)
 
-* Improving D1/D2 layer and `pkg` layer to complete the v2 version
-* Complete migration of v1  model implementations to v2 (preferably with minimal changes to the source code).
-* Complete integration with `DSIPTS` and `sktime`
-* Improve the test framework to include more scenarios and edge cases
-* Addition of new models from `tslib` and related packages.
-* Addition of `polars` backend to v2 (preferably v2.x)
-* See Roadmap issue [here](https://github.com/sktime/pytorch-forecasting/issues/1993)
+#### 2.1 Difficulty: Medium
+* Improving D1/D2 layer and `pkg` layer to complete the v2 version (Look at the work items [here](https://github.com/sktime/pytorch-forecasting/issues/1974))
+* Adding new `train_test_split` strategies.
+* Add adapter for `nn` losses and `MultiLoss` support (See issue [here](https://github.com/sktime/pytorch-forecasting/issues/1970))
+* Improve the test framework to include more scenarios and edge cases.
+
+Skills: `torch`, methodology (deep learning), familiarity with training, checkpointing, interence, hubs
 
 Getting started: rework one `pytorch-forecasting` model
 
 Expected outcomes: `pytorch-forecasting` rearchitecture & integration to 2.0
 
-Stretch goal: foundation model integration, research benchmark study
+Stretch goal: research benchmark study, Addition of `polars` backend to v2 (preferably v2.x)
 
-Difficulty: medium (basic), hard (advanced)
+Difficulty: medium 
 
-Length: 175 (basic) or 350 hours (advanced)
+Length: 175
 
 Mentors: phoeenniixx, agobbifbk
 
-Max projects: 2
+#### 2.2 Difficulty: Medium
+* Complete migration of v1  model implementations to v2 (preferably with minimal changes to the source code).
+* Complete integration with `DSIPTS` and `sktime`.
+* Addition of new models from `tslib` and related packages (see umbrella issue [here](https://github.com/sktime/pytorch-forecasting/issues/1992)).
+
+Skills: `torch`, methodology (deep learning), familiarity with training, checkpointing, interence, hubs
+
+Getting started: rework one `pytorch-forecasting` model
+
+Expected outcomes: `pytorch-forecasting` rearchitecture & integration to 2.0
+
+Stretch goal: research benchmark study, Addition of `polars` backend to v2 (preferably v2.x)
+
+Difficulty: Medium
+
+Length: 175
+
+Mentors: phoeenniixx, agobbifbk
+
+### 3. Pre-training, Global Learning and fine-tuning API
+Design of foundation model API elements - pre-training, fine-tuning. See issues [sktime#6580](https://github.com/sktime/sktime/issues/6580) and [sktime#7838](https://github.com/sktime/sktime/issues/7838)
+
+#### 3.1 Difficulty: Hard
+* Designing API elements for pre-training, fine-tuning and global learning.
+  * The contributors can propose their own designs. For reference, please look at this [Enhancement Proposal](https://github.com/sktime/enhancement-proposals/pull/41).
+* Implementation of API for fine-tuning and pre-training and complete integration with `pytorch-forecasting-v2`.
+* Integration with test framework of `pytorch-forecasting` using `skbase`. 
+* Implementing and Designing Global Forecasting Pipeline in `pytorch-forecasting-v2`.
+
+Skills: `torch`, `huggingface`, `transformers`, methodology (DL, LLM), familiarity with training, checkpointing, interence, hubs
+
+Getting started: rework one `pytorch-forecasting` model
+
+Expected outcomes: Mature Pre-training API & integration to 2.0
+
+Stretch goal: research benchmark study
+
+Difficulty: Hard 
+
+Length: 350
+
+Mentors: phoeenniixx, agobbifbk
 
 
 ## skpro
