@@ -301,12 +301,12 @@ Mentors: phoeenniixx, agobbifbk
 ### probabilistic forecasting, survival models, Bayesian interfaces
 
 * help developing the [`skpro`](https://github.com/sktime/skpro/issues) package - distributions, time-to-event models, reductions
-* help implement estimators and compositors from the wishlists:
+* Project 1: help implement estimators and compositors from the wishlists:
    * skpro: [estimators](https://github.com/sktime/skpro/issues/7), [distributions](https://github.com/sktime/skpro/issues/22)
    * sktime: [proba forecasting list](https://github.com/sktime/sktime/issues/1742), [proba for compositors list](https://github.com/sktime/sktime/issues/2088)
-* examples: model-based prediction intervals, probabilistic ensembles
-* advanced: develop Bayesian modelling API for regression and forecasting - prior/posterior handling, update
-* advanced: on-line, stream/update functionality for regression
+   * examples: model-based prediction intervals, probabilistic ensembles 
+* Project 2: develop Bayesian modelling API for regression and forecasting - prior/posterior handling, update
+* Project 3: on-line, stream/update functionality for regression
 
 Skills: methodology (forecasting), probability, "rolling your own estimator", sklearn internals; advanced: methodology (Bayesian, online)
 
@@ -318,10 +318,12 @@ Stretch goal: stream or point process modelling functionality (option 1); Bayesi
 
 Mentors: fkiraly, felipeangelimvieira, marrov
 
-Difficulty: medium (basic), hard (advanced)
+Difficulty: 
+Project 1: medium 
+Project 2: hard 
+Project 3: hard
 
-Length: 175 (basic) or 350 hours (advanced)
-
-Max projects: 3
-
-
+Length: 
+Project 1: 175 
+Project 2: 350
+Project 3: 350
