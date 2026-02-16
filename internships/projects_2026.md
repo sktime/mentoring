@@ -21,7 +21,7 @@ Organisation: [GC.OS](https://gcos.ai/)
 
 Contributor Guide: https://github.com/sktime/sktime/blob/main/CONTRIBUTING.md
 
-### sktime Project 1: Migrate tapnet, resnet and cntc `tensorflow` based models to `torch` and enhance the `torch` models in `sktime` by adding support for features from the wishlist.
+### Project 1: Migrate tapnet, resnet and cntc `tensorflow` based models to `torch` and enhance the `torch` models in `sktime` by adding support for features from the wishlist.
 
 Detailed description of the project (2-5 sentences) 
 * Complete the migration of deep learning models from tensorflow to torch. See issue [sktime/#8699](https://github.com/sktime/sktime/issues/8699) for more details. The comment section of linked issue contains already migrated models, which can be used as a template. For example, [RNN classifier from sktime/#8842](https://github.com/sktime/sktime/pull/8842) and [RNN regressor from sktime/#9013](https://github.com/sktime/sktime/pull/9013)
@@ -45,7 +45,7 @@ Getting started: migrate one `tensorflow` based model to `torch` in `sktime`. Se
 
 
 
-### sktime Project 2: Migrate fcn, cnn `tensorflow` based models to `torch` and enhance the `torch` models in `sktime` by adding support for features from the wishlist.
+### Project 2: Migrate fcn, cnn `tensorflow` based models to `torch` and enhance the `torch` models in `sktime` by adding support for features from the wishlist.
 
 Detailed description of the project (2-5 sentences) 
 * Complete the migration of deep learning models from tensorflow to torch. See issue [sktime/#8699](https://github.com/sktime/sktime/issues/8699) for more details. The comment section of linked issue contains already migrated models, which can be used as a template. For example, [RNN classifier from sktime/#8842](https://github.com/sktime/sktime/pull/8842) and [RNN regressor from sktime/#9013](https://github.com/sktime/sktime/pull/9013)
@@ -69,7 +69,7 @@ Difficulty: moderate
 Getting started: migrate one `tensorflow` based model to `torch` in `sktime`. See issue [sktime/#8699](https://github.com/sktime/sktime/issues/8699) for more details.
 
 
-### sktime Project 3: Interface foundations models - development, interfaces, research
+### Project 3: Interface foundations models - development, interfaces, research
 
 * mature and complete integrations of pre-trained models and foundation models in `sktime`: [umbrella issue](https://github.com/sktime/sktime/issues/6177)
   * chronos2 - [Issue](https://github.com/sktime/sktime/issues/8988)
@@ -94,7 +94,7 @@ Getting started: interface a 3rd party foundation model please refer [umbrella i
 Stretch goal: other learning tasks, research benchmark study for contributors interested in advanced projects.
 
 
-### sktime Project 4: Interface foundations models - development, interfaces, research
+### Project 4: Interface foundations models - development, interfaces, research
 
 * mature and complete integrations of pre-trained models and foundation models in `sktime`: [umbrella issue](https://github.com/sktime/sktime/issues/6177)
   * chronos2 - [Issue](https://github.com/sktime/sktime/issues/8988)
@@ -119,7 +119,7 @@ Getting started: interface a 3rd party foundation model please refer [umbrella i
 Stretch goal: other learning tasks, research benchmark study for contributors interested in advanced projects.
 
 
-### hierarchical models and hierarchical distributions
+### Project 5: hierarchical models and hierarchical distributions
 
 * extend hierarchical model features in sktime, skpro, prophetverse
 * help implement hierarchical estimators, see [hierarchical reconciliation](https://github.com/sktime/sktime/issues/2157)
@@ -143,7 +143,7 @@ Length: 175 (basic) or 350 hours (advanced)
 
 
 
-### stream and online support for forecasting and detection tasks
+### Project 6: stream and online support for forecasting and detection tasks
 
 * help expanding efficient stream/online update for existing forecasting models in `sktime`
 * stream/update compositors for forecasting models and transformation models
@@ -168,7 +168,7 @@ Length: 90 (short), 175 (basic) or 350 hours (advanced)
 
 
 
-### detection framework with sktime and skchange
+### Project 7: detection framework with sktime and skchange
 
 * expand the detection framework in sktime - segmentation, change point detection, anomaly detection
 * short project: implementing and interfacing new algorithms and metrics
