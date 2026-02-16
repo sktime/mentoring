@@ -185,8 +185,10 @@ Organisation: [GC.OS](https://gcos.ai/)
 Contributor Guide: https://github.com/sktime/pytorch-forecasting/blob/main/CONTRIBUTING.md
 
 ### 1. Foundation Models
+Complete integrations of pre-trained models and foundation models in `pytorch-forecasting`: [pytorch-forecasting#1959](https://github.com/sktime/pytorch-forecasting/issues/1959)
 
-* mature and complete integrations of pre-trained models and foundation models in `sktime` and `pytorch-forecasting`: See issue [sktime#7598](https://github.com/sktime/sktime/issues/6177) and [pytorch-forecasting#1959](https://github.com/sktime/pytorch-forecasting/issues/1959)
+#### Difficulty: Advanced
+* mature and complete integrations of pre-trained models and foundation models in `sktime` and `pytorch-forecasting`: [pytorch-forecasting#1959](https://github.com/sktime/pytorch-forecasting/issues/1959)
 * layer integration with `pytorch-forecasting` and `scikit-base`.
 * interfacing a 3rd party foundation model from the umbrella issue
 * Create new `DataModule`, `Model` and `pkg` layer specifically for foundation models for `pytorch-forecasting-v2`.
@@ -200,38 +202,54 @@ Expected outcomes: consolidated interfaces for pre-trained model, forecasting
 
 Stretch goal: other learning tasks, research benchmark study
 
-Difficulty: medium (basic), hard (advanced)
+Difficulty: hard (advanced)
 
-Length: 175 (basic) or 350 hours (advanced)
+Length: 350 hours (advanced)
 
 Mentors: phoeenniixx, agobbifbk
 
-Max projects:3
-
 
 ### 2. pytorch-forecasting & dsipts - redesign, sktime integration
+Complete `pytorch-forecasting` v2 rework and releasing a stable version 2. See Roadmap issue [here](https://github.com/sktime/pytorch-forecasting/issues/1993)
 
-* Improving D1/D2 layer and `pkg` layer to complete the v2 version
-* Complete migration of v1  model implementations to v2 (preferably with minimal changes to the source code).
-* Complete integration with `DSIPTS` and `sktime`
-* Improve the test framework to include more scenarios and edge cases
-* Addition of new models from `tslib` and related packages.
-* Addition of `polars` backend to v2 (preferably v2.x)
-* See Roadmap issue [here](https://github.com/sktime/pytorch-forecasting/issues/1993)
+#### Difficulty: Medium
+* Improving D1/D2 layer and `pkg` layer to complete the v2 version (Look at the work items [here](https://github.com/sktime/pytorch-forecasting/issues/1974))
+* Adding new `train_test_split` strategies.
+* Add adapter for `nn` losses and `MultiLoss` support (See issue [here](https://github.com/sktime/pytorch-forecasting/issues/1970))
+* Improve the test framework to include more scenarios and edge cases.
+
+Skills: `torch`, methodology (deep learning), familiarity with training, checkpointing, interence, hubs
 
 Getting started: rework one `pytorch-forecasting` model
 
 Expected outcomes: `pytorch-forecasting` rearchitecture & integration to 2.0
 
-Stretch goal: foundation model integration, research benchmark study
+Stretch goal: research benchmark study, Addition of `polars` backend to v2 (preferably v2.x)
 
-Difficulty: medium (basic), hard (advanced)
+Difficulty: medium 
 
-Length: 175 (basic) or 350 hours (advanced)
+Length: 175
 
 Mentors: phoeenniixx, agobbifbk
 
-Max projects: 2
+#### Difficulty: Medium
+* Complete migration of v1  model implementations to v2 (preferably with minimal changes to the source code).
+* Complete integration with `DSIPTS` and `sktime`.
+* Addition of new models from `tslib` and related packages (see umbrella issue [here](https://github.com/sktime/pytorch-forecasting/issues/1992)).
+
+Skills: `torch`, methodology (deep learning), familiarity with training, checkpointing, interence, hubs
+
+Getting started: rework one `pytorch-forecasting` model
+
+Expected outcomes: `pytorch-forecasting` rearchitecture & integration to 2.0
+
+Stretch goal: research benchmark study, Addition of `polars` backend to v2 (preferably v2.x)
+
+Difficulty: Medium
+
+Length: 175
+
+Mentors: phoeenniixx, agobbifbk
 
 
 ## skpro
