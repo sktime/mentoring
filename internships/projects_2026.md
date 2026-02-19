@@ -157,7 +157,7 @@ Complete integrations of pre-trained models and foundation models in `pytorch-fo
 
 **Expected outcomes:** Consolidated interfaces for pre-trained model, forecasting  
 **Skills:** `torch`, `huggingface`, `transformers`, methodology (DL, LLM), familiarity with training, checkpointing, interence, hubs  
-**Mentors:** phoeenniixx, agobbifbk  
+**Mentors:** phoeenniixx, agobbifbk, PranavBhatP  
 **Length:** 350 hours    
 **Difficulty:** Hard  
 **Getting started:** Interface a 3rd party foundation model  
@@ -174,7 +174,7 @@ Complete `pytorch-forecasting` v2 rework and releasing a stable version 2. See R
 
 **Expected outcomes:** `pytorch-forecasting` rearchitecture & integration to 2.0  
 **Skills:** `torch`, methodology (deep learning), familiarity with training, checkpointing, interence, hubs   
-**Mentors:** phoeenniixx, agobbifbk  
+**Mentors:** phoeenniixx, agobbifbk, PranavBhatP  
 **Length:** 175 hours  
 **Difficulty:** Medium    
 **Getting started:** Rework one `pytorch-forecasting` model  
@@ -187,7 +187,7 @@ Complete `pytorch-forecasting` v2 rework and releasing a stable version 2. See R
 
 **Expected outcomes:** `pytorch-forecasting` rearchitecture & integration to 2.0  
 **Skills:** `torch`, methodology (deep learning), familiarity with training, checkpointing, interence, hubs  
-**Mentors:** phoeenniixx, agobbifbk  
+**Mentors:** phoeenniixx, agobbifbk, PranavBhatP  
 **Length:** 175 hours  
 **Difficulty:** Medium  
 **Getting started:** Rework one `pytorch-forecasting` model  
