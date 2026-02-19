@@ -2,8 +2,8 @@
 
 Community members and new joiners are invited to apply to the internship and mentorship programs: 
 - [sktime mentoring scheme](https://www.sktime.net/en/latest/get_involved/mentoring.html) - applications on rolling basis
-- [European Summer of Code 2026](https://github.com/sktime/mentoring/blob/main/internships/esoc2026.md) - open until 18 March 2025, 18 UTC
-- [Google Summer of Code 2026](https://github.com/sktime/mentoring/blob/main/internships/gsoc2026.md) - open until 31 March 2025, 18 UTC
+- [European Summer of Code 2026](https://github.com/sktime/mentoring/blob/main/internships/esoc2026.md) - open until 18 March 2026, 18 UTC
+- [Google Summer of Code 2026](https://github.com/sktime/mentoring/blob/main/internships/gsoc2026.md) - open until 31 March 2026, 18 UTC
 - sktime internships (applications closed)
 - Outreachy (applications closed)
 - Academic mentoring at contributing universities (see details below)
